@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebsiteController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,7 +17,7 @@ use App\Http\Controllers\WebsiteController;
 
 
 /* Website Routes */
-Route::get('/', [WebsiteController::class, 'home'])->name('website.welcome');
+Route::get('/', [WebsiteController::class, 'home'])->name('website.home');
 Route::get('/about', [WebsiteController::class, 'about'])->name('website.about');
 Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
 /* Website Routes */

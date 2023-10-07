@@ -5,12 +5,12 @@
                 <h2
                     class="h2 text-success border-bottom pb-3 border-light logo"
                 >
-                    Zay Shop
+                    Ashraf Garlic
                 </h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
-                        123 Consectetur at ligula 10660
+                        Obour Market Place
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
@@ -24,8 +24,8 @@
                         <i class="fa fa-envelope fa-fw"></i>
                         <a
                             class="text-decoration-none"
-                            href="mailto:info@company.com"
-                            >info@company.com</a
+                            href="mailto:ashraf@company.com"
+                            >ashraf@company.com</a
                         >
                     </li>
                 </ul>
@@ -40,39 +40,15 @@
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <a class="text-decoration-none" href="#"
-                            >Luxury</a
+                            >Garlic</a
                         >
                     </li>
                     <li>
                         <a class="text-decoration-none" href="#"
-                            >Sport Wear</a
+                            >Onion</a
                         >
                     </li>
-                    <li>
-                        <a class="text-decoration-none" href="#"
-                            >Men's Shoes</a
-                        >
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href="#"
-                            >Women's Shoes</a
-                        >
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href="#"
-                            >Popular Dress</a
-                        >
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href="#"
-                            >Gym Accessories</a
-                        >
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href="#"
-                            >Sport Shoes</a
-                        >
-                    </li>
+
                 </ul>
             </div>
 
@@ -84,28 +60,18 @@
                 </h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
-                        <a class="text-decoration-none" href="#"
+                        <a class="text-decoration-none" href="{{ route('website.home')}}"
                             >Home</a
                         >
                     </li>
                     <li>
-                        <a class="text-decoration-none" href="#"
+                        <a class="text-decoration-none" href="{{ route('website.about')}}"
                             >About Us</a
                         >
                     </li>
                     <li>
-                        <a class="text-decoration-none" href="#"
-                            >Shop Locations</a
-                        >
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href="#"
-                            >FAQs</a
-                        >
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href="#"
-                            >Contact</a
+                        <a class="text-decoration-none" href="{{ route('website.contact')}}"
+                            >Contact Us</a
                         >
                     </li>
                 </ul>
@@ -183,21 +149,5 @@
         </div>
     </div>
 
-    <div class="w-100 bg-black py-3">
-        <div class="container">
-            <div class="row pt-2">
-                <div class="col-12">
-                    <p class="text-left text-light">
-                        Copyright &copy; 2021 Company Name | Designed by
-                        <a
-                            rel="sponsored"
-                            href="https://templatemo.com"
-                            target="_blank"
-                            >TemplateMo</a
-                        >
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </footer>
