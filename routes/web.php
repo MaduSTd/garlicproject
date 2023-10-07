@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WebsiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+/* Website Routes */
+Route::get('/', [WebsiteController::class, 'home'])->name('website.welcome');
+Route::get('/about', [WebsiteController::class, 'about'])->name('website.about');
+Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
+/* Website Routes */
