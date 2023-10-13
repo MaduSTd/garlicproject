@@ -1,8 +1,7 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WebsiteController;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +14,18 @@ use App\Http\Controllers\WebsiteController;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
 
-/* Website Routes */
-Route::get('/', [WebsiteController::class, 'home'])->name('website.home');
-Route::get('/about', [WebsiteController::class, 'about'])->name('website.about');
-Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
-/* Website Routes */
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+require __DIR__.'/auth.php';
