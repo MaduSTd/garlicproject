@@ -42,12 +42,7 @@ aria-hidden="true"
 </div>
 </div>
 
-<!-- Start Banner Hero -->
 
-<!-- End Banner Hero -->
-
-
-<!-- Start Our Products -->
 <section class="bg-light">
 <div class="container py-5">
     <div class="row text-center py-3">
@@ -61,7 +56,7 @@ aria-hidden="true"
         </div>
     </div>
     <div class="row">
-        <div class="col-8 col-md-4 mb-4">
+        <div class="col-6 col-md-3 mb-3">
             <div class="card h-100">
                 <a href="shop-single.html">
                     <img
@@ -86,7 +81,7 @@ aria-hidden="true"
                 </div>
             </div>
         </div>
-        <div class="col-8 col-md-4 mb-4">
+        <div class="col-6 col-md-3 mb-3">
             <div class="card h-100">
                 <a href="shop-single.html">
                     <img
@@ -111,7 +106,7 @@ aria-hidden="true"
                 </div>
             </div>
         </div>
-        <div class="col-8 col-md-4 mb-4">
+        <div class="col-6 col-md-3 mb-3">
             <div class="card h-100">
                 <a href="shop-single.html">
                     <img
@@ -125,7 +120,7 @@ aria-hidden="true"
                     <a
                         href="shop-single.html"
                         class="h2 text-decoration-none text-dark"
-                        >Summer Addides Shoes</a
+                        >White Onions</a
                     >
                     <p class="card-text">
                         Curabitur ac mi sit amet diam luctus porta.
@@ -136,7 +131,7 @@ aria-hidden="true"
                 </div>
             </div>
         </div>
-        <div class="col-8 col-md-4 mb-4">
+        <div class="col-6 col-md-3 mb-3">
             <div class="card h-100">
                 <a href="shop-single.html">
                     <img
