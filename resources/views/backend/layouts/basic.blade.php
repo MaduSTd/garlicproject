@@ -22,6 +22,9 @@
     <!-- Navbar -->
     @include('backend.layouts.navbar')
     <!-- End Navbar -->
+    <div class="container-fluid py-4">
+        @yield('page-content')
+      </div>
 
   </main>
   <!--   Core JS Files   -->
