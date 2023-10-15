@@ -22,10 +22,7 @@
     <!-- Navbar -->
     @include('backend.layouts.navbar')
     <!-- End Navbar -->
-    <div class="container-fluid py-4">
-      @yield('page-content')
-      @include('backend.layouts.footer')
-    </div>
+
   </main>
   <!--   Core JS Files   -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
