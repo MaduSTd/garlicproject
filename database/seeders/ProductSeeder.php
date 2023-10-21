@@ -13,16 +13,7 @@ class ProductSeeder extends Seeder
      */
     public function run(): void
     {
-      Product::create(["name" => "garlic", "description" => "haga asly 10/10"]);
-      Product::create(["name" => "garlic", "description" => "haga asly 10/10"]);
-      Product::create(["name" => "garlic", "description" => "haga asly 10/10"]);
-      Product::create(["name" => "garlic", "description" => "haga asly 10/10"]);
-      Product::create(["name" => "garlic", "description" => "haga asly 10/10"]);
-      Product::create(["name" => "onion", "description" => "haga asly 10/10"]);
-      Product::create(["name" => "onion", "description" => "haga asly 10/10"]);
-      Product::create(["name" => "onion", "description" => "haga asly 10/10"]);
-      Product::create(["name" => "onion", "description" => "haga asly 10/10"]);
-      Product::create(["name" => "onion", "description" => "haga asly 10/10"]);
+
     }
 }
 

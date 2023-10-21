@@ -11,8 +11,9 @@
         <div class="row">
             <div class="col-6">
                 <ul class="h2 mb-5">
+                    <li><img style="width: 100px; height: 100px; border-radius: 100%;" src="{{ asset('storage/products/' . $product->images->first()->image) }}" alt=""></li>
                     <li class="mb-3">Name: {{ $product->name }}</li>
-                    <li class="mb-3">Description: {{ $product->num_of_seats }}</li>
+                    <li class="mb-3">Description: {{ $product->description }}</li>
                 </ul>
                 <a href="{{ route('backend.products.list') }}" class="btn btn-secondary">Back to Products List</a>
             </div>

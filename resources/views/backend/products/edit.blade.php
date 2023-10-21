@@ -16,6 +16,13 @@
             @csrf
             @method('put')
             <div class="form-group">
+                <label for="image">Profile Picture</label>
+                <input type="file" name="image" id="image" value="{{ $product->image }}" class="form-control mt-2 mb-3">
+                <h5>Curent Image</h5>
+
+                <img src="{{ asset('storage/products/' . $product->images->first()->image) }}" alt="">
+            </div>
+            <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" value="{{ $product->name }}" class="form-control mt-2 mb-3">
             </div>

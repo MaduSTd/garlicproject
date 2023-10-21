@@ -31,6 +31,8 @@ Route::put('/admin/products/{id}', [ProductController::class, 'update'])->name('
 Route::delete('/admin/products/{id}', [ProductController::class, 'destroy'])->name('backend.products.destroy');
 /* Products Routes */
 
+Route::get('/tt', [WebsiteController::class, 'index'])->name('website.home');
+
 Route::get('/admin/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

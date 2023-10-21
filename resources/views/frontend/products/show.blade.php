@@ -1,16 +1,11 @@
-@extends('backend.layouts.basic')
+@extends('website.layouts.basic')
 
 
-@section('page-title')
-    Products List
-@endsection
-
-@section('page-content')
+@section('product-content')
     <div class="row">
         <h1>Products List</h1>
         <table class="table">
             <tr>
-                <th>#</th>
                 <td class="w-25">ID</td>
                 <td class="w-25">Name</td>
                 <td class="w-25">Description</td>
@@ -18,7 +13,6 @@
             </tr>
             @foreach($products as $product)
             <tr>
-                <td><img style="width: 40px; height: 40px; border-radius: 50%;" src="{{ asset('storage/products/' . $product->images->first()->image) }}" alt=""></td>
                 <td>{{ $product->id }}</td>
                 <td>{{ $product->name }}</td>
                 <td>{{ $product->description }}</td>
