@@ -30,15 +30,9 @@
     <body>
      @include('website.layouts.navbar')
 
-      @yield('home-content')
-
-      @yield('product-content')
-
-      @yield('about-content')
-
-      @yield('contact-content')
 
 
+     @yield('home-content')
 
 
         <!-- Start Footer -->
