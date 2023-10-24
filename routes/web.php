@@ -19,9 +19,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [WebsiteController::class, 'home'])->name('website.home');
 Route::get('/about', [WebsiteController::class, 'about'])->name('website.about');
 Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
+Route::get('/product1', [WebsiteController::class, 'product1'])->name('website.product1');
+Route::get('/product2', [WebsiteController::class, 'product2'])->name('website.product2');
+Route::get('/product3', [WebsiteController::class, 'product3'])->name('website.product3');
+Route::get('/product4', [WebsiteController::class, 'product4'])->name('website.product4');
+Route::get('/product5', [WebsiteController::class, 'product5'])->name('website.product5');
+Route::get('/product6', [WebsiteController::class, 'product6'])->name('website.product6');
 /* Website Routes */
 
-/* Products Routes */
+/* Products Routes ) */
 Route::get('/admin/products', [ProductController::class, 'index'])->name('backend.products.list');
 Route::get('/admin/products/create', [ProductController::class, 'create'])->name('backend.products.new');
 Route::post('/admin/products', [ProductController::class, 'store'])->name('backend.products.save');

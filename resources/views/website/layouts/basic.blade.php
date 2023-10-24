@@ -35,6 +35,7 @@
      @yield('home-content')
 
 
+
         <!-- Start Footer -->
       @include('website.layouts.footer')
         <!-- End Footer -->
