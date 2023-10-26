@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Garlic</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="apple-touch-icon" href="assets/img/apple-icon.png" />
-        <link
-            rel="shortcut icon"
-            type="image/x-icon"
-            href="assets/img/favicon.ico"
-        />
-        <link rel="stylesheet" href="{{ asset('front-assets/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('front-assets/css/custom.css') }}">
-        <link rel="stylesheet" href="{{ asset('front-assets/css/fontawesome.css') }}">
-        <link rel="stylesheet" href="{{ asset('front-assets/css/fontawesome.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('front-assets/css/slick.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('front-assets/css/slick-theme.css') }}">
-        <link rel="stylesheet" href="{{ asset('front-assets/css/slick-theme.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('front-assets/css/templatemo.css') }}">
-        <link rel="stylesheet" href="{{ asset('front-assets/css/templatemo.min.css') }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mazarea El-Kaliubia</title>
 
-        <!-- Load fonts style after rendering the layout styles -->
-        <link  href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet"/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
-
-    </head>
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="{{ asset('front-assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-assets/css/elegant-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-assets/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-assets/css/jquery-ui.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-assets/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-assets/css/slicknav.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-assets/css/style.css') }}">
+</head>
 
     <body>
      @include('website.layouts.navbar')
 
-      @yield('home-content')
 
-      @yield('product-content')
 
-      @yield('about-content')
+     @yield('home-content')
+     @yield('about-content')
+     @yield('contact-content')
 
-      @yield('contact-content')
 
 
         <!-- Start Footer -->
       @include('website.layouts.footer')
         <!-- End Footer -->
 
-        <!-- Start Script -->
-        <script src="{{ asset('front-assets/js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ asset('front-assets/js/custom.js') }}"></script>
-        <script src="{{ asset('front-assets/js/jquery-migrate-1.2.1.min.js') }}"></script>
-        <script src="{{ asset('front-assets/js/jquery-1.11.0.min.js') }}"></script>
-        <script src="{{ asset('front-assets/js/slick.min.js') }}"></script>
-        <script src="{{ asset('front-assets/js/templatemo.min.js') }}"></script>
-        <script src="{{ asset('front-assets/js/templatemo.js') }}"></script>
-        <!-- End Script -->
+        <!-- Js Plugins -->
+
+    <script src="{{ asset('front-assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('front-assets/js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('front-assets/js/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('front-assets/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('front-assets/js/jquery.slicknav.js') }}"></script>
+    <script src="{{ asset('front-assets/js/main.js') }}"></script>
+    <script src="{{ asset('front-assets/js/mixitup.min.js') }}"></script>
+    <script src="{{ asset('front-assets/js/owl.carousel.min.js') }}"></script>
+
+
+
     </body>
 </html>

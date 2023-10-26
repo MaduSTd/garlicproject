@@ -1,146 +1,69 @@
-<footer class="bg-dark" id="tempaltemo_footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 pt-5">
-                <h2
-                    class="h2 text-success border-bottom pb-3 border-light logo"
-                >
-                    Garlic
-                </h2>
-                <ul class="list-unstyled text-light footer-link-list">
-                    <li>
-                        <i class="fas fa-map-marker-alt fa-fw"></i>
-                        Office : Cairo-Egypt-El-obour Central Market Vegtables Partition Section 9 Market 299
-                    </li>
-                    <li>
-                        <i class="fa fa-map-marker-alt fa-fw"></i>
-                        Station : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Pharmacy
-                    </li>
-                    <li>
-                        <i class="fa fa-envolepe fa-fw"></i>
-                        Email : Dr_ashrafismael@hotmail.com
-                        Phone : +(20)01222255475
-                    </li>
-                </ul>
+    <!-- Start Footer -->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Mazarea El-Kaliubia</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fa fa-map-marker fa-fw"></i>
+                            Office : Cairo-Egypt-El-obour Central Market Vegtables Partition Section 9 Market 299
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker fa-fw"></i>
+                            Station : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Pharmacy
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            Email : Dr_ashrafismael@hotmail.com
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            Phone : +(20)1222255475
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Luxury</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Sport Wear</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Men's Shoes</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Women's Shoes</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Popular Dress</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Gym Accessories</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Sport Shoes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Home</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">About Us</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Shop Locations</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">FAQs</a></li>
+                        <li><a style=" color:white;text-decoration:none;background-color:none;" href="#">Contact</a></li>
+                    </ul>
+                </div>
+
             </div>
 
-            <div class="col-md-4 pt-5">
-                <h2
-                    class="h2 text-light border-bottom pb-3 border-light"
-                >
-                    Products
-                </h2>
-                <ul class="list-unstyled text-light footer-link-list">
-                    <li>
-                        <a class="text-decoration-none" href="#"
-                            >Garlic</a
-                        >
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href="#"
-                            >Onion</a
-                        >
-                    </li>
 
-                </ul>
-            </div>
-
-            <div class="col-md-4 pt-5">
-                <h2
-                    class="h2 text-light border-bottom pb-3 border-light"
-                >
-                    Further Info
-                </h2>
-                <ul class="list-unstyled text-light footer-link-list">
-                    <li>
-                        <a class="text-decoration-none" href="{{ route('website.home')}}"
-                            >Home</a
-                        >
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href="{{ route('website.about')}}"
-                            >About Us</a
-                        >
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href="{{ route('website.contact')}}"
-                            >Contact Us</a
-                        >
-                    </li>
-                </ul>
-            </div>
         </div>
 
-        <div class="row text-light mb-4">
-            <div class="col-12 mb-3">
-                <div class="w-100 my-3 border-top border-light"></div>
-            </div>
-            <div class="col-auto me-auto">
-                <ul class="list-inline text-left footer-icons">
-                    <li
-                        class="list-inline-item border border-light rounded-circle text-center"
-                    >
-                        <a
-                            class="text-light text-decoration-none"
-                            target="_blank"
-                            href="http://facebook.com/"
-                            ><i
-                                class="fab fa-facebook-f fa-lg fa-fw"
-                            ></i
-                        ></a>
-                    </li>
-                    <li
-                        class="list-inline-item border border-light rounded-circle text-center"
-                    >
-                        <a
-                            class="text-light text-decoration-none"
-                            target="_blank"
-                            href="https://www.instagram.com/"
-                            ><i class="fab fa-instagram fa-lg fa-fw"></i
-                        ></a>
-                    </li>
-                    <li
-                        class="list-inline-item border border-light rounded-circle text-center"
-                    >
-                        <a
-                            class="text-light text-decoration-none"
-                            target="_blank"
-                            href="https://twitter.com/"
-                            ><i class="fab fa-twitter fa-lg fa-fw"></i
-                        ></a>
-                    </li>
-                    <li
-                        class="list-inline-item border border-light rounded-circle text-center"
-                    >
-                        <a
-                            class="text-light text-decoration-none"
-                            target="_blank"
-                            href="https://www.linkedin.com/"
-                            ><i class="fab fa-linkedin fa-lg fa-fw"></i
-                        ></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-auto">
-                <label class="sr-only" for="subscribeEmail"
-                    >Email address</label
-                >
-                <div class="input-group mb-2">
-                    <input
-                        type="text"
-                        class="form-control bg-dark border-light"
-                        id="subscribeEmail"
-                        placeholder="Email address"
-                    />
-                    <div
-                        class="input-group-text btn-success text-light"
-                    >
-                        Subscribe
-                    </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer__copyright">
+                    <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                    <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
                 </div>
             </div>
         </div>
-    </div>
 
-
-</footer>
+    </footer>
+    <!-- End Footer -->
