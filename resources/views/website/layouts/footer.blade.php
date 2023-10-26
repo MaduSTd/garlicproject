@@ -5,28 +5,21 @@
                 <h2
                     class="h2 text-success border-bottom pb-3 border-light logo"
                 >
-                    Ashraf Garlic
+                    Garlic
                 </h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
-                        Obour Market Place
+                        Office : Cairo-Egypt-El-obour Central Market Vegtables Partition Section 9 Market 299
                     </li>
                     <li>
-                        <i class="fa fa-phone fa-fw"></i>
-                        <a
-                            class="text-decoration-none"
-                            href="tel:010-020-0340"
-                            >010-020-0340</a
-                        >
+                        <i class="fa fa-map-marker-alt fa-fw"></i>
+                        Station : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Pharmacy
                     </li>
                     <li>
-                        <i class="fa fa-envelope fa-fw"></i>
-                        <a
-                            class="text-decoration-none"
-                            href="mailto:ashraf@company.com"
-                            >ashraf@company.com</a
-                        >
+                        <i class="fa fa-envolepe fa-fw"></i>
+                        Email : Dr_ashrafismael@hotmail.com
+                        Phone : +(20)01222255475
                     </li>
                 </ul>
             </div>
