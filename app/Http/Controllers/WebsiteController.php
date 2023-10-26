@@ -24,7 +24,8 @@ class WebsiteController extends Controller
     }
     public function product1()
     {
-        return view('website.product1');
+        $products = Product::all();
+        return view('website.product1')->with(["products" => $products]);
     }
     public function product2()
      {
