@@ -5,7 +5,7 @@
    <div class="container">
     <div class="row">
         <div>
-            <h1 style="color:rgba(0, 128, 255, 0.552)">About Us</h1>
+            <h1 class="h2 text-success border-bottom pb-3 border-light logo">About Us</h1>
         </div>
         <div>
             <p>
