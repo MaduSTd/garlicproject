@@ -1,32 +1,54 @@
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-
-            <a class="h2 text-success border-bottom pb-3 border-light logo" href="index.html">
-                Mazarea El-Kaliubia
-            </a>
-
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/tt">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+<div class="header" id="header">
+    <div class="container">
+      <a href="#" class="logo">Mazarei El-Kalioubeya</a>
+      <ul class="main-nav">
+        <li><a href="{{route('website.home')}}">Home</a></li>
+        <li><a href="{{route('website.about')}}">About Us</a></li>
+        <li><a href="{{route('website.contact')}}">Contact Us</a></li>
+        <li>
+          <a href="#">Languages</a>
+          <!-- Start Megamenu -->
+          <div class="mega-menu">
+            <div class="image">
+              <img src="imgs/megamenu.png" alt="" />
             </div>
-
-
-        </div>
-    </nav>
-    <!-- Close Header -->
+            <ul class="links">
+              <li>
+                <a href="#testimonials"><i class="far fa-comments fa-fw"></i> Testimonials</a>
+              </li>
+              <li>
+                <a href="#team"><i class="far fa-user fa-fw"></i> Team Members</a>
+              </li>
+              <li>
+                <a href="#services"><i class="far fa-building fa-fw"></i> Services</a>
+              </li>
+              <li>
+                <a href="#our-skills"><i class="far fa-check-circle fa-fw"></i> Our Skills</a>
+              </li>
+              <li>
+                <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i> How It Works</a>
+              </li>
+            </ul>
+            <ul class="links">
+              <li>
+                <a href="#events"><i class="far fa-calendar-alt fa-fw"></i> Events</a>
+              </li>
+              <li>
+                <a href="#pricing"><i class="fas fa-server fa-fw"></i> Pricing Plans</a>
+              </li>
+              <li>
+                <a href="#video"><i class="far fa-play-circle fa-fw"></i> Top Videos</a>
+              </li>
+              <li>
+                <a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Stats</a>
+              </li>
+              <li>
+                <a href="#discount"><i class="fas fa-percent fa-fw"></i> Request A Discount</a>
+              </li>
+            </ul>
+          </div>
+          <!-- End Megamenu -->
+        </li>
+      </ul>
+    </div>
+  </div>
