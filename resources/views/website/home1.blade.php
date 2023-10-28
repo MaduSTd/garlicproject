@@ -9,9 +9,9 @@
     <div class="container">
         @foreach ($products as $product)
         <div class="box">
-            <img src="imgs/cat-01.jpg" alt="" />
+            <a style=" color:white;text-decoration:none;background-color:none;" href="{{ route('website.productView', $product->id) }}"><img src="{{ asset('storage/products/' . $product->images->first()->image) }}" class="object-fit" alt="" style="width:100%" ></a>
             <div class="content">
-              <h3>{{$product -> name}}/h3>
+              <h3>{{__ ('msg.name') }}</h3>
               <p>{{$product -> description}}</p>
             </div>
             <div class="info">

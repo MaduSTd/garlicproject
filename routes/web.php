@@ -16,11 +16,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 /* Website Routes */
-Route::get('/', [WebsiteController::class, 'home'])->name('website.home');
+Route::get('/', [WebsiteController::class, 'testloc'])->name('website.testloc');
 Route::get('/about', [WebsiteController::class, 'about'])->name('website.about');
 Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
 Route::get('/productView/{id}', [WebsiteController::class, 'show'])->name('website.productView');
 /* Website Routes */
+
+Route::group(
+    [
+        'prefix' => LaravelLocalization::setLocale(),
+        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+    ], function(){ //...
+
+    /** Localized Routes here **/
+    Route::get('/',function(){
+        return view ('website.testloc');
+    });
+    Route::get('/test',function(){
+    return view ('website.test');
+    });
+    Route::get('/tt', [WebsiteController::class, 'index'])->name('website.home');
+    });
+
+    /** OTHER PAGES THAT SHOULD NOT BE LOCALIZED **/
 
 /* Products Routes ) */
 Route::get('/admin/products', [ProductController::class, 'index'])->name('backend.products.list');
@@ -50,5 +68,7 @@ require __DIR__.'/auth.php';
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
 
 
