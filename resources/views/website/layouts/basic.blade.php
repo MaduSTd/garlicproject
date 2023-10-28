@@ -31,6 +31,7 @@
      @yield('home-content')
      @yield('about-content')
      @yield('contact-content')
+     @yield('page-content')
 
 
 

@@ -29,10 +29,11 @@
             <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
               <div class="featured__item">
                 <div>
-                    <img src="{{ asset('storage/products/' . $product->images->first()->image) }}" class="object-fit" alt="" style="width:100%">
+                    <a style=" color:white;text-decoration:none;background-color:none;" href="{{ route('website.productView', $product->id) }}"><img src="{{ asset('storage/products/' . $product->images->first()->image) }}" class="object-fit" alt="" style="width:100%" ></a>
 
 
                 </div>
+
                 <div class="featured__item__text">
                   <h6><a href="#">{{$product->name}}</a></h6>
                   <h5>{{$product->description}}</h5>
