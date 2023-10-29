@@ -19,7 +19,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [WebsiteController::class, 'testloc'])->name('website.testloc');
 Route::get('/about', [WebsiteController::class, 'about'])->name('website.about');
 Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
-Route::get('/productView/{id}', [WebsiteController::class, 'show'])->name('website.productView');
+Route::get('/productview1', [WebsiteController::class, 'show1'])->name('website.productview1');
+Route::get('/productview2', [WebsiteController::class, 'show2'])->name('website.productview2');
+Route::get('/productview3', [WebsiteController::class, 'show3'])->name('website.productview3');
+Route::get('/productview4', [WebsiteController::class, 'show4'])->name('website.productview4');
+Route::get('/productview5', [WebsiteController::class, 'show5'])->name('website.productview5');
 /* Website Routes */
 
 Route::group(
