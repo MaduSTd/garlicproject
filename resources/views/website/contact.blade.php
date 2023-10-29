@@ -1,44 +1,47 @@
 @extends('website.layouts.basic')
 
 @section('contact-content')
-<section>
-<div class="container-fluid bg-light py-5">
-    <div class="col-md-6 m-auto text-center">
-        <h1 class="h1">Contact Us</h1>
-        <p> Welcome to our website ,We are glad you are in here</p>
-        <p>If you want to contact us please, fill the form down below.</p>
-
-    </div>
-</div>
 
 
-<div class="container py-5">
-    <div class="row py-5">
-        <form class="col-md-9 m-auto" method="post" role="form">
-            <div class="row">
-                <div class="form-group col-md-6 mb-3">
-                    <label for="inputname">Name</label>
-                    <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Name">
-                </div>
-                <div class="form-group col-md-6 mb-3">
-                    <label for="inputemail">Email</label>
-                    <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email">
-                </div>
-            </div>
+<!-- Start Discount -->
+<div class="contact" id="contact">
+    <div class="image">
+        <div class="content">
+          <h2>Contact Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+            asperiores consectetur, recusandae ratione provident necessitatibus,
+            cumque delectus commodi fuga praesentium beatae. Totam vel similique
+            laborum dicta aperiam odit doloribus corporis.
+          </p>
 
-            <div class="mb-3">
-                <label for="inputmessage">Message</label>
-                <textarea class="form-control mt-1" id="message" name="message" placeholder="Message" rows="8"></textarea>
-            </div>
-            <div class="row">
-                <div class="col text-end mt-2">
-                    <button type="submit" class="btn btn-success btn-lg px-3">Let’s Talk</button>
-                </div>
-            </div>
+        </div>
+      </div>
+    <div class="form">
+      <div class="content">
+        <h2>Contact Us</h2>
+        <form action="">
+          <input
+            class="input"
+            type="text"
+            placeholder="Your Name"
+            name="name"
+          />
+          <input
+            class="input"
+            type="email"
+            placeholder="Your Email"
+            name="email"
+          />
+          <textarea
+            class="input"
+            placeholder="Tell Us About Your Needs"
+            name="message"
+          ></textarea>
+          <input type="submit" value="Send" />
         </form>
+      </div>
     </div>
-</div>
-
-
-</section>
+  </div>
+  <!-- End Discount -->
 @endsection
