@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ asset('front-assets/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('front-assets/css/normalize.css') }}">
     <link rel="stylesheet" href="{{ asset('front-assets/css/elzero.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-assets/css/drop.css') }}">
 
      <!-- Google Fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com" />

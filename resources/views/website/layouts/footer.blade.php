@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="container">
       <div class="box">
-        <h3>Mazarei El-Kalioubeya</h3>
+        <h3>Mazarea El-Kaliubia</h3>
       </div>
       <div class="box">
        <h3>Our Products</h3>
