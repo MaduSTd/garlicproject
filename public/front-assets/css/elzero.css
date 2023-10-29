@@ -171,6 +171,115 @@ ul {
     font-size: 18px;
     transition: var(--main-transition);
 }
+
+#lang-menu
+{
+margin-top: 25px;
+position: relative;
+}
+
+#lang-menu:hover ul
+{
+    display: block;
+}
+
+#selected-lang
+{
+    width: 100px;
+    cursor:pointer;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2
+}
+
+#selected-lang:before
+{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/GB/shiny/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ul:hover
+{
+    display: block;
+}
+
+#ul-menu
+{
+ margin: 0;
+ padding: 0;
+ background-color: white;
+ border: 1px solid #f8f8f8;
+ box-shadow: 0px 1px 10px rgba(0, 0, 0 , 0.2);
+ border-radius: 5px;
+ width: 125px;
+/* display: none;*/
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+#li
+{
+ list-style: none;
+ text-align: left;
+ display: flex;
+ justify-content: space-between;
+}
+
+#li
+{
+    list-style: circle;
+}
+
+ul.ul-menu li a:hover
+
+{
+ background-color: #009688;
+}
+
+
+ul.ul-menu li a
+{
+ width: 125px;
+ display: block;
+ padding: 5px 10px;
+ text-decoration: none;
+
+}
+
+ul.ul-menu li a:before
+{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-image: url(https://flagsapi.com/GB/shiny/32.png);
+}
+
+ul.ul-menu li a.ar:before
+{
+    background-image: url(https://flagsapi.com/EG/shiny/32.png);
+}
+
+
+ul.ul-menu li a.de:before
+{
+
+    background-image: url(https://flagsapi.com/DE/shiny/32.png);
+}
+
+ul.ul-menu li a.fr:before
+{
+    background-image: url(https://flagsapi.com/FR/shiny/32.png);
+}
+
 @media (max-width: 767px) {
     .header .main-nav > li > a {
         padding: 10px;
@@ -193,6 +302,11 @@ ul {
     color: var(--main-color);
     background-color: #fafafa;
 }
+
+
+
+
+
 .header .main-nav > li > a:hover::before {
     left: 0;
 }

@@ -32,7 +32,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">Read More</a>
+              <a href="">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -46,7 +46,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">Read More</a>
+              <a href="">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -60,7 +60,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">Read More</a>
+              <a href="">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -74,7 +74,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">Read More</a>
+              <a href="">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -88,7 +88,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">Read More</a>
+              <a href="">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -102,12 +102,11 @@
               </p>
             </div>
             <div class="info">
-              <a href="">Read More</a>
+              <a href="">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
         </div>
       </div>
-      <div class="spikes"></div>
       <!-- End Products -->
 @endsection
