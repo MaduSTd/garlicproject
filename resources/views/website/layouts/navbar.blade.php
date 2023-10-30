@@ -7,32 +7,22 @@
         <li><a href="{{route('website.about')}}">About Us</a></li>
         <li><a href="{{route('website.contact')}}">Contact Us</a></li>
         <li>
-                <div id="lang-menu" class="lang-menu">
-                    <div class="selected-menu" id="selected-lang">
-                        English
-                    </div>
-                    <ul id="ul-menu" class="ul-menu">
-                        <li  class="li" id="li">
-                            <a class="en" href="" >English</a>
-                        </li>
-                        <li class="li" id="li">
-                            <a class="ar" href="" >Arabic</a>
-                        </li>
-                        <li class="li" id="li">
-                            <a class="de" href="" >German</a>
-                        </li>
-                        <li class="li" id="li">
-                            <a class="fr" href="" >French</a>
-                        </li>
-                    </ul>
+            <a>
+                <select>
+                    <option class="en" href="#">English</option>
+                    <option class="ar" href="#">Arabic</option>
+                    <option class="de" href="#">German</option>
+                    <option class="fr" href="#">French</option>
+                </select>
+            </a>
+        </li>
                     <!--
                     id="a-en"
                     id="a-ar"
                     id="a-ge"
                     id="a-fr
                     -->
-                </div>
-        </li>
+
       </ul>
     </div>
   </div>
