@@ -3,7 +3,7 @@
 
 
 @section('home-content')
-
+<br><br><br>
     <!-- Start Products -->
     <div class="articles" id="articles">
         <h2 class="main-title">Our Products</h2>

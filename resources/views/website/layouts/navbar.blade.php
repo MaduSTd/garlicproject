@@ -7,14 +7,15 @@
         <li><a href="{{route('website.about')}}">About Us</a></li>
         <li><a href="{{route('website.contact')}}">Contact Us</a></li>
         <li>
-            <a>
-                <select>
-                    <option class="en" href="#">English</option>
-                    <option class="ar" href="#">Arabic</option>
-                    <option class="de" href="#">German</option>
-                    <option class="fr" href="#">French</option>
-                </select>
-            </a>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="{{ url('/en/tt') }}">English</a>
+                  <a href="{{ url('/ar/tt') }}">Arabic</a>
+                  <a href="{{ url('/de/tt') }}">German</a>
+                  <a href="{{ url('/fr/tt') }}">French</a>
+                </div>
+              </div>
         </li>
                     <!--
                     id="a-en"
