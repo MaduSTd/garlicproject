@@ -36,6 +36,9 @@ Route::group(
     Route::get('/productview3', [WebsiteController::class, 'show3'])->name('website.productview3');
     Route::get('/productview4', [WebsiteController::class, 'show4'])->name('website.productview4');
     Route::get('/productview5', [WebsiteController::class, 'show5'])->name('website.productview5');
+    Route::get('/productview6', [WebsiteController::class, 'show6'])->name('website.productview6');
+    Route::get('/productview7', [WebsiteController::class, 'show7'])->name('website.productview7');
+
 /* Website Routes */
     });
 
