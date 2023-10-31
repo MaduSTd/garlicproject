@@ -3,6 +3,7 @@
 return
 [
     'agricultural production'   =>'Agricultural Production',
+    'agricultural'   =>'Agricultural',
     'red garlic'   =>'Red Garlic',
     'red onion'   =>'Red Onion',
     'white garlic'   =>'White Garlic',
@@ -25,4 +26,5 @@ return
     'aboutp1' =>'We are a company specialized in producing and marketing onion and garlic products since 1947 AD for all types of onions and garlic of Egyptian origin, and we began in the field of foreign marketing since 1988 AD.',
     'aboutp2' =>'The company has all kinds of Egyptian onions and Egyptian garlic in all its forms and in all packaging methods.',
     'hometop' =>'Egyptian Garlic and Onion',
+    'view' => 'View'
 ];

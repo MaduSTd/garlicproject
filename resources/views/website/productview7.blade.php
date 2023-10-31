@@ -6,21 +6,21 @@
 
 @section('page-content')
 <div class="gallery" id="gallery">
-    <h2 class="main-title">View Product</h2>
+    <h2 class="main-title">{{ __('msg.methods') }}</h2>
     <div class="container">
       <div class="box">
         <div class="image">
-          <img src="{{'front-assets/imgs/gallery-01.png'}}" alt="" />
+            <img src="{{asset('front-assets/imgs/method2.jpg')}}" alt="" />
         </div>
       </div>
       <div class="box">
         <div class="image">
-          <img src="{{'front-assets/imgs/gallery-02.png'}}" alt="" />
+            <img src="{{asset('front-assets/imgs/method3.jpg')}}" alt="" />
         </div>
       </div>
       <div class="box">
         <div class="image">
-          <img src="{{'front-assets/imgs/gallery-03.jpg'}}" alt="" />
+            <img src="{{asset('front-assets/imgs/method4.jpg')}}" alt="" />
         </div>
       </div>
     </div>

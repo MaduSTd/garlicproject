@@ -207,6 +207,12 @@ ul {
         margin: auto;
     }
 }
+#h3homepage
+{
+    margin-right:100px; font-size:24px;
+}
+
+
 .header .main-nav > li > a {
     display: flex;
     justify-content: center;

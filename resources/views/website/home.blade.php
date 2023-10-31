@@ -3,7 +3,7 @@
 
 
 @section('home-content')
-<h3  style="margin-left:100px; font-size:24px;" class="text-center">{{ __('msg.hometop') }}</h3>
+<h3 id="h3homepage" class="text-center">{{ __('msg.hometop') }}</h3>
     <!-- Start Products -->
     <div class="articles" id="articles">
         <h2 class="main-title">{{ __('msg.our products') }}</h2>
@@ -18,7 +18,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="{{route('website.productview1')}}">View</a>
+              <a href="{{route('website.productview1')}}">{{ __('msg.view') }}</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -32,7 +32,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="{{route('website.productview2')}}">View</a>
+              <a href="{{route('website.productview2')}}">{{ __('msg.view') }}</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -46,7 +46,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="{{route('website.productview3')}}">View</a>
+              <a href="{{route('website.productview3')}}">{{ __('msg.view') }}</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -60,7 +60,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="{{route('website.productview4')}}">View</a>
+              <a href="{{route('website.productview4')}}">{{ __('msg.view') }}</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -74,8 +74,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="{{route('website.productview5')}}">View</a>
-              <a href="">View</a>
+              <a href="{{route('website.productview5')}}">{{ __('msg.view') }}</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -89,7 +88,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="{{route('website.productview6')}}">View</a>
+              <a href="{{route('website.productview6')}}">{{ __('msg.view') }}</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -103,7 +102,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="{{route('website.productview7')}}">View</a>
+              <a href="{{route('website.productview7')}}">{{ __('msg.view') }}</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
