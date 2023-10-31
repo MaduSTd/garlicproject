@@ -1,19 +1,19 @@
 <div class="header" id="header">
     <div class="container">
-      <a href="#" class="logo">Mazarea El-Kaliubia</a>
+      <a href="#" class="logo">{{ __('msg.mazarea el-kaliubia') }}</a>
 
       <ul class="main-nav">
-        <li><a href="{{route('website.home')}}" >Home</a></li>
-        <li><a href="{{route('website.about')}}">About Us</a></li>
-        <li><a href="{{route('website.contact')}}">Contact Us</a></li>
+        <li><a href="{{route('website.home')}}" >{{ __('msg.homenav') }}</a></li>
+        <li><a href="{{route('website.about')}}">{{ __('msg.about us') }}</a></li>
+        <li><a href="{{route('website.contact')}}">{{ __('msg.contact us') }}</a></li>
         <li>
             <div class="dropdown">
-                <button class="dropbtn">Dropdown</button>
+                <button class="dropbtn">{{ __('msg.languages') }}</button>
                 <div class="dropdown-content">
-                  <a href="{{ url('/en/tt') }}">English</a>
-                  <a href="{{ url('/ar/tt') }}">Arabic</a>
-                  <a href="{{ url('/de/tt') }}">German</a>
-                  <a href="{{ url('/fr/tt') }}">French</a>
+                  <a href="{{ url('/en/home') }}">English</a>
+                  <a href="{{ url('/ar/home') }}">Arabic</a>
+                  <a href="{{ url('/de/home') }}">German</a>
+                  <a href="{{ url('/fr/home') }}">French</a>
                 </div>
               </div>
         </li>

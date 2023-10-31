@@ -6,10 +6,6 @@ use Illuminate\Http\Request;
 
 class WebsiteController extends Controller
 {
-    public function testloc() {
-        return view('website.testloc');
-    }
-
     public function about() {
         return view('website.about');
     }
@@ -20,7 +16,7 @@ class WebsiteController extends Controller
 
     public function index() {
         $products = Product::all();
-        return view('website.home1')->with(["products" => $products]);
+        return view('website.home')->with(["products" => $products]);
     }
     public function show1()
     {

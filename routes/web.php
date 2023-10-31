@@ -15,16 +15,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-/* Website Routes */
-Route::get('/', [WebsiteController::class, 'testloc'])->name('website.testloc');
-Route::get('/about', [WebsiteController::class, 'about'])->name('website.about');
-Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
-Route::get('/productview1', [WebsiteController::class, 'show1'])->name('website.productview1');
-Route::get('/productview2', [WebsiteController::class, 'show2'])->name('website.productview2');
-Route::get('/productview3', [WebsiteController::class, 'show3'])->name('website.productview3');
-Route::get('/productview4', [WebsiteController::class, 'show4'])->name('website.productview4');
-Route::get('/productview5', [WebsiteController::class, 'show5'])->name('website.productview5');
-/* Website Routes */
+
 
 Route::group(
     [
@@ -35,13 +26,17 @@ Route::group(
     ){ //...
 
     /** Localized Routes here **/
-    Route::get('/',function(){
-        return view ('website.testloc');
-    });
-    Route::get('/test',function(){
-    return view ('website.test');
-    });
-    Route::get('/tt', [WebsiteController::class, 'index'])->name('website.home');
+
+    /* Website Routes */
+    Route::get('/home', [WebsiteController::class, 'index'])->name('website.home');
+    Route::get('/about', [WebsiteController::class, 'about'])->name('website.about');
+    Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
+    Route::get('/productview1', [WebsiteController::class, 'show1'])->name('website.productview1');
+    Route::get('/productview2', [WebsiteController::class, 'show2'])->name('website.productview2');
+    Route::get('/productview3', [WebsiteController::class, 'show3'])->name('website.productview3');
+    Route::get('/productview4', [WebsiteController::class, 'show4'])->name('website.productview4');
+    Route::get('/productview5', [WebsiteController::class, 'show5'])->name('website.productview5');
+/* Website Routes */
     });
 
     /** OTHER PAGES THAT SHOULD NOT BE LOCALIZED **/
@@ -72,7 +67,7 @@ require __DIR__.'/auth.php';
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
 
