@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php
+    $lang = app()->getlocale() =="ar" ? '-rtl' : '';
+?>
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,9 +10,9 @@
     <title>Mazarea El-Kaliubia</title>
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="{{ asset('front-assets/css/all.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('front-assets/css/normalize.css') }}">
-    <link rel="stylesheet" href="{{ asset('front-assets/css/elzero.css') }}">
+    <link rel="stylesheet" href="/front-assets/css{{$lang}}/all.min.css">
+    <link rel="stylesheet" href="/front-assets/css{{$lang}}/normalize.css">
+    <link rel="stylesheet" href="/front-assets/css{{$lang}}/elzero.css">
     <link rel="stylesheet" href="{{ asset('front-assets/css/drop.css') }}">
 
      <!-- Google Fonts -->
