@@ -1,6 +1,6 @@
 <div class="header" id="header">
     <div class="container">
-      <a href="#" class="logo">{{ __('msg.mazarea el-kaliubia') }}</a>
+      <a href="{{route('website.home')}}" class="logo">{{ __('msg.mazarea el-kaliubia') }}</a>
 
       <ul class="main-nav">
         <li><a href="{{route('website.home')}}" >{{ __('msg.homenav') }}</a></li>
