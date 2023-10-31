@@ -18,7 +18,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">Read More</a>
+              <a href="{{route('website.productview1')}}">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -32,7 +32,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">View</a>
+              <a href="{{route('website.productview2')}}">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -46,7 +46,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">View</a>
+              <a href="{{route('website.productview3')}}">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -60,7 +60,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">View</a>
+              <a href="{{route('website.productview4')}}">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -74,6 +74,7 @@
               </p>
             </div>
             <div class="info">
+              <a href="{{route('website.productview5')}}">View</a>
               <a href="">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
@@ -88,7 +89,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">View</a>
+              <a href="{{route('website.productview6')}}">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>
@@ -102,7 +103,7 @@
               </p>
             </div>
             <div class="info">
-              <a href="">View</a>
+              <a href="{{route('website.productview7')}}">View</a>
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>
           </div>

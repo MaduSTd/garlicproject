@@ -54,6 +54,22 @@ class WebsiteController extends Controller
         return view('website.productView5');
     }
 
+    public function show6()
+    {
+
+        $product = Product::all();
+        return view('website.productView6');
+    }
+
+
+    public function show7()
+    {
+
+        $product = Product::all();
+        return view('website.productView7');
+    }
+
+
     }
 
 
