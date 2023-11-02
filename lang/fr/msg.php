@@ -21,10 +21,11 @@ return
     'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
     'phone' =>'Téléphone : +(20)1222255475',
     'your name' =>'Votre Nom',
+    'your phone' => 'ton numéro de téléphone',
     'your e-mail' =>'Votre E-mail',
     'needs' =>'Parlez-nous de vos besoins',
     'aboutp1' =>"Nous sommes une entreprise spécialisée dans la production et la commercialisation de produits à base d'oignons et d'ail depuis 1947 après JC pour tous les types d'oignons et d'ail d'origine égyptienne, et nous avons débuté dans le domaine de la commercialisation à l'étranger depuis 1988 après JC.",
     'aboutp2' =>"L'entreprise propose toutes sortes d'oignons égyptiens et d'ail égyptien sous toutes ses formes et dans tous les modes de conditionnement.",
     'hometop' =>'Ail et Oignon égyptiens',
-    'view' => 'voir'
+    'view' => 'voir',
 ];

@@ -1,0 +1,31 @@
+<?php
+
+return
+[
+    'hometop' =>'Alho Egípcio e Cebola',
+    'agricultural production'   =>'produção agrícola',
+    'agricultural'   =>'Agrícola',
+    'red garlic'   =>'Alho Vermelho',
+    'red onion'   =>'Cebola Roxa',
+    'white garlic'   =>'Alho Branco',
+    'white onion'   =>'Cebola Branca',
+    'garlic cloves'   =>'Dentes De Alho',
+    'methods'   =>'Métodos e Embalagem e Carga',
+    'our products' =>'Nossos produtos',
+    'homenav'   =>'Pagina Inicial',
+    'about us'   =>'Sobre Nós',
+    'contact us'   =>'Contate-nos',
+    'languages' =>'Línguas',
+    'mazarea el-kaliubia'=>'Mentagat Mazarea El-Kaliubia',
+    'office' =>'Escritório : Cairo, Egito-El-Obour Mercado Central Vegetais Partição Seção 9 Mercado 299',
+    'station' =>'Station : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Farmacia',
+    'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
+    'phone' =>'Phone : +(20)1222255475',
+    'your name' =>'Seu nome',
+    'your phone' => 'Seu telefone',
+    'your e-mail' =>'Seu E-mail',
+    'needs' =>'Conte-nos sobre suas necessidades',
+    'aboutp1' =>'Somos uma empresa Egípcia especializada em produzir e comercialização de produtos de cebola e alho desde 1947 DE ANÚNCIOS para todos os tipos de cebola e alho de origem egípcia, e começamos na área de marketing de exportação desde 1988 DE ANÚNCIOS.',
+    'aboutp2' =>'Nossa empresa possui todos os tipos de Cebola Egípcia e Alho Egípcio em todas as suas formas e em todos os métodos de embalagem.',
+    'view' => 'Visualizar',
+];

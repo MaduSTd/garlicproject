@@ -20,17 +20,31 @@
       <div class="content">
         <h2>{{ __('msg.contact us') }}</h2>
         <form action="">
-          <input
+
+            <input
             class="input"
             type="text"
             placeholder="{{ __('msg.your name') }}"
             name="name"
+            />
+
+            <input
+            class="input"
+            type="phone"
+            placeholder="{{ __('msg.your phone') }}"
+            name="phone"
           />
           <input
             class="input"
             type="email"
             placeholder="{{ __('msg.your e-mail') }}"
             name="email"
+          />
+          <input
+            class="input"
+            type="country"
+            placeholder="{{ __('msg.your country') }}"
+            name="country"
           />
           <textarea
             class="input"

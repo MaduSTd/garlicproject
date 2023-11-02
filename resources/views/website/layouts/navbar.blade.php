@@ -14,6 +14,8 @@
                   <a href="{{ url('/ar/home') }}">Arabic</a>
                   <a href="{{ url('/de/home') }}">German</a>
                   <a href="{{ url('/fr/home') }}">French</a>
+                  <a href="{{ url('/pt/home') }}">Portugeese</a>
+                  <a href="{{ url('/ru/home') }}">Russian</a>
                 </div>
               </div>
         </li>
