@@ -39,6 +39,10 @@ Route::group(
     Route::get('/productview6', [WebsiteController::class, 'show6'])->name('website.productview6');
     Route::get('/productview7', [WebsiteController::class, 'show7'])->name('website.productview7');
 
+
+    Route::get('/test_view', [WebsiteController::class, 'test_view'])->name('website.test-view');
+    Route::post('/post_message', [WebsiteController::class, 'test_view'])->name('website.test-view');
+
 /* Website Routes */
     });
 
