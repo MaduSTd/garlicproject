@@ -12,7 +12,7 @@
     <!-- Css Styles -->
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/all.min.css">
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/normalize.css">
-    <link rel="stylesheet" href="/front-assets/css{{$lang}}/elzero.css">
+    <link rel="stylesheet" href="/front-assets/css{{$lang}}/styles.css">
     <link rel="stylesheet" href="{{ asset('front-assets/css/drop.css') }}">
 
      <!-- Google Fonts -->
