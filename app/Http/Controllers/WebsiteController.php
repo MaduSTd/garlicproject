@@ -15,58 +15,54 @@ class WebsiteController extends Controller
     }
 
     public function index() {
-        $products = Product::all();
-        return view('website.home')->with(["products" => $products]);
+        return view('website.home') ;
     }
     public function show1()
     {
 
-        $product = Product::all();
         return view('website.productView1');
     }
 
     public function show2()
     {
 
-        $product = Product::all();
         return view('website.productView2');
     }
 
     public function show3()
     {
 
-        $product = Product::all();
         return view('website.productView3');
     }
 
     public function show4()
     {
 
-        $product = Product::all();
         return view('website.productView4');
 
     }
 
     public function show5()
     {
-
-        $product = Product::all();
         return view('website.productView5');
     }
 
     public function show6()
     {
-
-        $product = Product::all();
         return view('website.productView6');
     }
 
 
     public function show7()
     {
-
-        $product = Product::all();
         return view('website.productView7');
+    }
+
+
+
+    public function test_view() {
+        return view('mails.contactmail');
+
     }
 
 

@@ -4,6 +4,37 @@
 
 @section('home-content')
 <h3 id="h3homepage" class="text-center">{{ __('msg.hometop') }}</h3>
+
+
+<div clas="slider-frame "id="slider-frame">
+    <div class="slide-images" id="slide-images">
+        <div class="img-container" id="img-container">
+            <img src="{{ asset('front-assets/imgs/Agricultural.jpg') }}">
+        </div>
+    </div>
+    <div class="slide-images" id="slide-images">
+        <div class="img-container" id="img-container">
+            <img src="{{ asset('front-assets/imgs/redgarlic.jpg') }}">
+        </div>
+    </div>
+
+    <div class="slide-images" id="slide-images">
+        <div class="img-container" id="img-container">
+            <img src="{{ asset('front-assets/imgs/redonion.jpg') }}" alt="Photo 1">
+        </div>
+    </div>
+    <div class="slide-images" id="slide-images">
+        <div class="img-container" id="img-container">
+            <img src="{{ asset('front-assets/imgs/whitegarlic.jpg') }}" alt="Photo 2">
+        </div>
+    </div>
+
+  </div>
+
+
+
+
+
     <!-- Start Products -->
     <div class="articles" id="articles">
         <h2 class="main-title">{{ __('msg.our products') }}</h2>
