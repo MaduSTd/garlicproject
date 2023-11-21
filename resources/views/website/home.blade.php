@@ -4,12 +4,7 @@
 
 @section('home-content')
 <h3 id="h3homepage" class="text-center">{{ __('msg.hometop') }}</h3>
-
-<<<<<<< HEAD
  <!-- Start Products -->
-=======
-    <!-- Start Products -->
->>>>>>> f59e2d1328c767f5cbe2170b53f67da43394873a
     <div class="articles" id="articles">
         <br><br>
         <h2 class="main-title">{{ __('msg.our products') }}</h2>
