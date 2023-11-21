@@ -1707,3 +1707,96 @@ ul.ul-menu li a.fr:before {
     }
 }
 /* End Animation */
+
+body {
+    margin: 10px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.auto-slider {
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    padding: 10px 10px 20px;
+    background: rgb(40, 174, 40);
+    max-width: 720px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div#slider {
+    overflow: hidden;
+}
+div#slider figure img {
+    width: 20%;
+    float: left;
+    height: 500px;
+}
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 45s sliding ease infinite;
+}
+
+/* Slider indicator */
+.indicator {
+    width: 100%;
+    max-width: 720px;
+    height: 6px;
+    background: #2af598;
+    position: absolute;
+    bottom: 0;
+
+    animation: indicating 9s ease infinite;
+}
+
+@keyframes sliding {
+    0% {
+        right: 0%;
+    }
+    20% {
+        right: -100%;
+    }
+    40% {
+        right: -200%;
+    }
+    60% {
+        right: -300%;
+    }
+    80% {
+        right: -400%;
+    }
+    100% {
+        right: 0%;
+    }
+}
+
+@keyframes indicating {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
+}
+.credit {
+    text-align: center;
+    color: #000;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+.credit a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
