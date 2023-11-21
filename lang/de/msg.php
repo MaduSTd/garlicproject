@@ -26,6 +26,7 @@ return
     'needs' =>'Erzählen Sie uns von Ihren Bedürfnissen',
     'aboutp1' =>'Wir sind ein Unternehmen, das sich seit 1947 n. Chr. auf die Herstellung und Vermarktung von Zwiebel- und Knoblauch produkten für alle Arten von Zwiebeln und Knoblauch ägyptischen Ursprungs spezialisiert hat und seit 1988 n. Chr. mit der Vermarktung im Ausland begonnen hat.',
     'aboutp2' =>'Das Unternehmen verfügt über alle Arten von ägyptischen Zwiebeln und ägyptischen Knoblauch in allen Formen und in allen Verpackungsarten.',
+    'aboutp3' => '(Frische rote Zwiebeln – Frische goldgelbe Zwiebeln – Trockene Zwiebelscheiben – Trockenes Zwiebelpulver – Weißer frischer grüner Knoblauch – Roter frischer grüner Knoblauch – Trockener roter Knoblauch – Trockener weißer Knoblauch – Frische grüne Knoblauchschalen – Trockene Knoblauchschalen – Trockenes Knoblauchpulver)',
     'hometop' =>'Ägyptischer Knoblauch und Zwiebeln',
     'view' =>'Sicht',
     'your phone' =>'Ihr Telephone',

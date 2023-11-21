@@ -27,5 +27,6 @@ return
     'needs' =>'Conte-nos sobre suas necessidades',
     'aboutp1' =>'Somos uma empresa Egípcia especializada em produzir e comercialização de produtos de cebola e alho desde 1947 DE ANÚNCIOS para todos os tipos de cebola e alho de origem egípcia, e começamos na área de marketing de exportação desde 1988 DE ANÚNCIOS.',
     'aboutp2' =>'Nossa empresa possui todos os tipos de Cebola Egípcia e Alho Egípcio em todas as suas formas e em todos os métodos de embalagem.',
+    'aboutp3' =>'(Cebola vermelha fresca - Cebola amarela dourada fresca - Slides de cebola seca - Cebola seca em pó - Alho verde fresco branco - Alho verde fresco vermelho - Alho vermelho seco - Alho branco seco - Cascas de alho verde fresco - Cascas de alho seco - Pó de alho seco)',
     'view' => 'Visualizar',
 ];

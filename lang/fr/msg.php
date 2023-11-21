@@ -26,6 +26,7 @@ return
     'needs' =>'Parlez-nous de vos besoins',
     'aboutp1' =>"Nous sommes une entreprise spécialisée dans la production et la commercialisation de produits à base d'oignons et d'ail depuis 1947 après JC pour tous les types d'oignons et d'ail d'origine égyptienne, et nous avons débuté dans le domaine de la commercialisation à l'étranger depuis 1988 après JC.",
     'aboutp2' =>"L'entreprise propose toutes sortes d'oignons égyptiens et d'ail égyptien sous toutes ses formes et dans tous les modes de conditionnement.",
+    'aboutp3' =>"(Oignon rouge frais - Oignon jaune doré frais - Lames d'oignon sec - Poudre d'oignon sec - Ail vert frais blanc - Ail vert frais rouge - Ail rouge sec - Ail blanc sec - Pelures d'ail vert frais - Pelures d'ail sec - Poudre d'ail sec)",
     'hometop' =>'Ail et Oignon égyptiens',
     'view' => 'voir',
 ];

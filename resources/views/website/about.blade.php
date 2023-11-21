@@ -14,7 +14,7 @@
             <h1>
                 {{ __('msg.aboutp2') }}
             </h1>
-            <h6>(Fresh red Onion - Fresh Golden Yellow Onion - Dry Onion Slides - Dry Onion Powder - White Fresh Green garlic - Red Fresh Green Garlic - Dry Red Garlic - Dry White Garlic - Fresh Green Garlic Peels - Dry Garlic Peels - Dry Garlic Powder)</h6>
+            <h6> {{ __('msg.aboutp3') }}</h6>
         </div>
     </div>
    </div>
