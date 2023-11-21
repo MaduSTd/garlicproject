@@ -7,7 +7,7 @@
 
  <!-- Start Products -->
     <div class="articles" id="articles">
-        <br><br>
+        <br><br><br><br>
         <h2 class="main-title">{{ __('msg.our products') }}</h2>
         <div class="container">
           <div class="box">
@@ -15,8 +15,8 @@
             <div class="content">
               <h3>{{ __('msg.agricultural production') }}</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit
+
+
               </p>
             </div>
             <div class="info">
@@ -29,8 +29,8 @@
             <div class="content">
               <h3>{{ __('msg.red garlic') }}</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit
+
+
               </p>
             </div>
             <div class="info">
@@ -43,8 +43,8 @@
             <div class="content">
               <h3>{{ __('msg.red onion') }}</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit
+
+
               </p>
             </div>
             <div class="info">
@@ -57,8 +57,8 @@
             <div class="content">
               <h3>{{ __('msg.white garlic') }}</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit
+
+
               </p>
             </div>
             <div class="info">
@@ -71,8 +71,8 @@
             <div class="content">
               <h3>{{ __('msg.white onion') }}</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit
+
+
               </p>
             </div>
             <div class="info">
@@ -85,8 +85,8 @@
             <div class="content">
               <h3>{{ __('msg.garlic cloves') }}</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit
+
+
               </p>
             </div>
             <div class="info">
@@ -99,8 +99,8 @@
             <div class="content">
               <h3>{{ __('msg.methods') }}</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit
+
+
               </p>
             </div>
             <div class="info">

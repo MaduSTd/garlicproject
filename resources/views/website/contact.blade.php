@@ -8,10 +8,7 @@
         <div class="content">
           <h2>{{ __('msg.contact us') }}</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-            asperiores consectetur, recusandae ratione provident necessitatibus,
-            cumque delectus commodi fuga praesentium beatae. Totam vel similique
-            laborum dicta aperiam odit doloribus corporis.
+
           </p>
 
         </div>

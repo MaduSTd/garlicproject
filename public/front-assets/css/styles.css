@@ -208,8 +208,9 @@ ul {
 }
 
 #h3homepage {
-    margin-left: 100px;
+    margin-left:35px;
     font-size: 24px;
+
 }
 
 .header .main-nav > li > a {
@@ -1800,3 +1801,5 @@ div#slider figure {
     color: #000;
     font-weight: bold;
 }
+
+
