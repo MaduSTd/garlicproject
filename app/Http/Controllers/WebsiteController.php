@@ -61,9 +61,11 @@ class WebsiteController extends Controller
 
 
     public function test_view() {
-        return view('mails.contactmail');
+        return view('mails\contactmail');
 
     }
+
+
 
 
     }

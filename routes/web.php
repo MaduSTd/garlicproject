@@ -3,6 +3,9 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WebsiteController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ContactFormController;
+use App\Http\Controllers\ContactForm;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,8 +43,8 @@ Route::group(
     Route::get('/productview7', [WebsiteController::class, 'show7'])->name('website.productview7');
 
 
-    Route::get('/test_view', [WebsiteController::class, 'test_view'])->name('website.test-view');
-    Route::post('/post_message', [WebsiteController::class, 'test_view'])->name('website.test-view');
+    //Route::get('/test-view', [WebsiteController::class, 'test_view'])->name('website.test-view');
+    Route::post('/post-message', [ContactFormController::class, 'post_message'])->name('website.post-message');
 
 /* Website Routes */
     });

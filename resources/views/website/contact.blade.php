@@ -19,13 +19,17 @@
     <div class="form">
       <div class="content">
         <h2>{{ __('msg.contact us') }}</h2>
-        <form action="">
-
+        @if (Session::has('msg'))
+        <p class="aler alert-success">{{Session::get('msg')}}</p>
+        @endif
+        <form id ="contact-form" name="contact-form" class="defaultform2" action="/post-message" method="post">
+            @csrf
             <input
             class="input"
             type="text"
-            placeholder="{{ __('msg.your name') }}"
             name="name"
+            id="formEmail"
+            placeholder="{{ __('msg.your name') }}"
             />
 
             <input
@@ -39,6 +43,7 @@
             type="email"
             placeholder="{{ __('msg.your e-mail') }}"
             name="email"
+            id="email"
           />
           <input
             class="input"
