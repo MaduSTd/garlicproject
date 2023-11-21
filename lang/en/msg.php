@@ -22,6 +22,7 @@ return
     'phone' =>'Phone : +(20)1222255475',
     'your name' =>'Your Name',
     'your phone' => 'Your Phone',
+    'your country' => 'Your Country',
     'your e-mail' =>'Your E-mail',
     'needs' =>'Tell Us About Your Needs',
     'aboutp1' =>'We are an Egyptian company specialized in producing and marketing onion and garlic products since 1947 AD for all types of onions and garlic of Egyptian origin, and we began in the field of Exporting marketing since 1988 AD.',

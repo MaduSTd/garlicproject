@@ -23,13 +23,12 @@ class ContactFormController extends Controller
             'email' => $request->email,
             'country' => $request->country,
             'message' => $request->message,
-
         ];
 
         //send email to admin
         Mail::to('Saifkhodaryoka@gmail.com')->send(new ContactFormMail($data));
 
 
-        return back()->with('msg', 'Thanks for reaching out.Your message has been sent successfully');
+        return back()->with('msg', "Thanks for reaching out.Your message has been sent successfully");
     }
 }

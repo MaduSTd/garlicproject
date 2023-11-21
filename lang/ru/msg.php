@@ -22,6 +22,7 @@ return
     'station' =>'Станция : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Аптека',
     'email' =>'Электронная почта : Dr_ashrafismael@hotmail.com',
     'phone' =>'Телефон : +(20)1222255475',
+    'your country' => 'Твоя страна',
     'your name' =>'Ваше имя',
     'your phone' => 'Ваш телефон',
     'your e-mail' =>'Ваш адрес электронной почты',

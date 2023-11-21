@@ -22,6 +22,7 @@ return
     'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
     'phone' =>'Telefone : +(20)1222255475',
     'your name' =>'Seu nome',
+    'your country' => 'Seu País',
     'your phone' => 'Seu telefone',
     'your e-mail' =>'Seu E-mail',
     'needs' =>'Conte-nos sobre suas necessidades',

@@ -22,6 +22,7 @@ return
     'phone' =>'Telefon : +(20)1222255475',
     'your name' =>'Ihr Name',
     'your phone' =>'Ihr Telephone',
+    'your country' => 'Dein Land',
     'your e-mail' =>'Ihre E-Mail',
     'needs' =>'Erzählen Sie uns von Ihren Bedürfnissen',
     'aboutp1' =>'Wir sind ein Unternehmen, das sich seit 1947 n. Chr. auf die Herstellung und Vermarktung von Zwiebel- und Knoblauch produkten für alle Arten von Zwiebeln und Knoblauch ägyptischen Ursprungs spezialisiert hat und seit 1988 n. Chr. mit der Vermarktung im Ausland begonnen hat.',
@@ -29,5 +30,4 @@ return
     'aboutp3' => '(Frische rote Zwiebeln – Frische goldgelbe Zwiebeln – Trockene Zwiebelscheiben – Trockenes Zwiebelpulver – Weißer frischer grüner Knoblauch – Roter frischer grüner Knoblauch – Trockener roter Knoblauch – Trockener weißer Knoblauch – Frische grüne Knoblauchschalen – Trockene Knoblauchschalen – Trockenes Knoblauchpulver)',
     'hometop' =>'Ägyptischer Knoblauch und Zwiebeln',
     'view' =>'Sicht',
-    'your phone' =>'Ihr Telephone',
 ];
