@@ -17,7 +17,7 @@
 
                 <img src="{{asset('front-assets/imgs/redgarlic4.jpg')}}" alt="" />
 
-                <img src="{{asset('front-assets/imgs/redgarlic8.jpg')}}" alt="" />
+                <img src="{{asset('front-assets/imgs/redgarlic5.jpg')}}" alt="" />
 
                 <img src="{{asset('front-assets/imgs/redgarlic6.jpg')}}" alt="" />
             <div class="indicator"></div>

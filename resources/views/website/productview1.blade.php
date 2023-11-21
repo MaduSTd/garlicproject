@@ -15,11 +15,11 @@
 
                 <img src="{{asset('front-assets/imgs/agricultural3.jpg')}}" alt="" />
 
+                <img src="{{asset('front-assets/imgs/agricultural7.jpg')}}" alt="" />
+
                 <img src="{{asset('front-assets/imgs/agricultural4.jpg')}}" alt="" />
 
-                <img src="{{asset('front-assets/imgs/agricultural8.jpg')}}" alt="" />
-
-                <img src="{{asset('front-assets/imgs/agricultural6.jpg')}}" alt="" />
+                <img src="{{asset('front-assets/imgs/agricultural9.jpg')}}" alt="" />
             <div class="indicator"></div>
 </div>
 

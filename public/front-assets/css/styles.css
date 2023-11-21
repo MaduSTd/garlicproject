@@ -1744,7 +1744,7 @@ div#slider figure {
     left: 0;
     text-align: left;
     font-size: 0;
-    animation: 45s sliding ease infinite;
+    animation: 15s sliding ease infinite;
 }
 
 /* Slider indicator */
