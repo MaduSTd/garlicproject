@@ -1,0 +1,33 @@
+<?php
+
+return
+[
+    'agricultural production'   =>'produzione agricola',
+    'agricultural'   =>'Agricoltura',
+    'red garlic'   =>'aglio rosso',
+    'red onion'   =>'Cipolla rossa',
+    'white garlic'   =>'Aglio bianco',
+    'white onion'   =>'Cipolla bianca',
+    'garlic cloves'   =>"Spicchi d'aglio",
+    'methods'   =>'Metodi di imballaggio e carico',
+    'our products' =>'I nostri prodotti',
+    'homenav'   =>'Casa',
+    'about us'   =>'Chi siamo',
+    'contact us'   =>'Contattaci',
+    'languages' =>'Le lingue',
+    'mazarea el-kaliubia'=>'Mentagat Mazarea El-Kaliubia',
+    'office' =>'Ufficio: Mercato Centrale Cairo-Egitto-El-obour, Divisione Verdure, Sezione 9, Mercato 299',
+    'station' =>'Stazione: Maniero El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy',
+    'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
+    'phone' =>'Telefono : +(20)1222255475',
+    'your name' =>'Il tuo/tua nome',
+    'your phone' => 'Tuo/Tua Telefono',
+    'your country' => 'Tuo/Tua Paese',
+    'your e-mail' =>'Tuo/Tua E-mail',
+    'needs' =>'Parlaci di Tuo/Tua Esigenze',
+    'aboutp1' =>"Siamo un'azienda egiziana specializzata nella produzione e commercializzazione di prodotti a base di cipolla e aglio dal 1947 d.C. per tutti i tipi di cipolle e aglio di origine egiziana, e abbiamo iniziato nel campo del marketing per l'esportazione dal 1988 d.C.",
+    'aboutp2' =>'La nostra azienda dispone di tutti i tipi di cipolle egiziane e aglio egiziano in tutte le sue forme e in tutti i metodi di confezionamento.',
+    'aboutp3' => '(Cipolla rossa fresca - Cipolla fresca gialla dorata - Filetti di cipolla secca - Cipolla secca in polvere - Aglio verde bianco fresco - Aglio verde fresco rosso - Aglio rosso secco - Aglio bianco secco - Bucce di aglio verde fresco - Bucce di aglio secco - Aglio secco in polvere)',
+    'hometop' =>'Aglio e cipolla egiziani',
+    'view' => 'Visualizzazione',
+];

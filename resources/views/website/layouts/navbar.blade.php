@@ -12,6 +12,7 @@
                 <div class="dropdown-content">
                   <a href="{{ url('/en/home') }}">English</a>
                   <a href="{{ url('/ar/home') }}">Arabic</a>
+                   <a href="{{ url('/it/home') }}">Italiano</a>
                   <a href="{{ url('/de/home') }}">German</a>
                   <a href="{{ url('/fr/home') }}">French</a>
                   <a href="{{ url('/pt/home') }}">Portugeese</a>
