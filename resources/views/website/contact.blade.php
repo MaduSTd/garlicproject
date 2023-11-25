@@ -16,10 +16,13 @@
     <div class="form">
       <div class="content">
         <h2>{{ __('msg.contact us') }}</h2>
-        @if (Session::has('msg'))
-        <p class="aler alert-success">{{Session::get('msg')}}</p>
+        @if(Session::has('message_sent'))
+        <div class="alert alert-success">
+            {{ Session::get('message_sent') }}
+        </div>
         @endif
-        <form id ="contact-form" name="contact-form" class="defaultform2" action="/post-message" method="post">
+        <br><br>
+        <form action="{{ route('contact-us') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <input
             class="input"
