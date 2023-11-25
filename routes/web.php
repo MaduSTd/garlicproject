@@ -3,8 +3,9 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WebsiteController;
 use App\Http\Controllers\ProductController;
-use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\ContactForm;
+use App\Http\Controllers\MailController;
+use App\Http\Controllers\ContactController;
 
 use Illuminate\Support\Facades\Route;
 
@@ -31,7 +32,7 @@ Route::group(
     /** Localized Routes here **/
 
     /* Website Routes */
-    Route::get('/home', [WebsiteController::class, 'index'])->name('website.home');
+    Route::get('/', [WebsiteController::class, 'index'])->name('website.home');
     Route::get('/about', [WebsiteController::class, 'about'])->name('website.about');
     Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
     Route::get('/productview1', [WebsiteController::class, 'show1'])->name('website.productview1');
@@ -43,8 +44,8 @@ Route::group(
     Route::get('/productview7', [WebsiteController::class, 'show7'])->name('website.productview7');
 
 
-    //Route::get('/test-view', [WebsiteController::class, 'test_view'])->name('website.test-view');
-    Route::post('/post-message', [ContactFormController::class, 'post_message'])->name('website.post-message');
+
+
 
 /* Website Routes */
     });
@@ -80,7 +81,8 @@ require __DIR__.'/auth.php';
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::post('contact',[ContactController::class,'sendEmail'])->name('contact-us');
 
 
 
