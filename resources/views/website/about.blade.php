@@ -14,7 +14,10 @@
             <h1>
                 {{ __('msg.aboutp2') }}
             </h1>
-            <h6> {{ __('msg.aboutp3') }}</h6>
+            <h1>
+                {{ __('msg.aboutp3') }}
+            </h1>
+            <h6> {{ __('msg.aboutp4') }}</h6>
         </div>
     </div>
    </div>
