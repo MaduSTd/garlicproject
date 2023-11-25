@@ -27,7 +27,8 @@ return
     'needs' =>'Parlaci di Tuo/Tua Esigenze',
     'aboutp1' =>"Siamo un'azienda egiziana specializzata nella produzione e commercializzazione di prodotti a base di cipolla e aglio dal 1947 d.C. per tutti i tipi di cipolle e aglio di origine egiziana, e abbiamo iniziato nel campo del marketing per l'esportazione dal 1988 d.C.",
     'aboutp2' =>'La nostra azienda dispone di tutti i tipi di cipolle egiziane e aglio egiziano in tutte le sue forme e in tutti i metodi di confezionamento.',
-    'aboutp3' => '(Cipolla rossa fresca - Cipolla fresca gialla dorata - Filetti di cipolla secca - Cipolla secca in polvere - Aglio verde bianco fresco - Aglio verde fresco rosso - Aglio rosso secco - Aglio bianco secco - Bucce di aglio verde fresco - Bucce di aglio secco - Aglio secco in polvere)',
+    'aboutp3' =>'La nostra azienda sostiene la società civile formando e impiegando giovani e donne vedove nelle operazioni e nella produzione dei nostri prodotti, spinti dal nostro impegno a garantire il più possibile una vita dignitosa alle famiglie povere e ai giovani.',
+    'aboutp4' => '(Cipolla rossa fresca - Cipolla fresca gialla dorata - Filetti di cipolla secca - Cipolla secca in polvere - Aglio verde bianco fresco - Aglio verde fresco rosso - Aglio rosso secco - Aglio bianco secco - Bucce di aglio verde fresco - Bucce di aglio secco - Aglio secco in polvere)',
     'hometop' =>'Aglio e cipolla egiziani',
     'view' => 'Visualizzazione',
 ];
