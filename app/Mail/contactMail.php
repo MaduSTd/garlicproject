@@ -34,6 +34,6 @@ public $data;
      */
     public function build()
     {
-        return $this->subject('Contact Message')->view('email.contactMail');
+        return $this->subject('Contact Message')->view('email.ContactMail');
     }
 }
