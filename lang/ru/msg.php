@@ -19,7 +19,7 @@ return
     'languages' =>'Языки',
     'mazarea el-kaliubia'=>'Mentagat Mazarea El-Kaliubia',
     'office' =>'Офис : Каир, Египет-El-obour Раздел овощей Центрального рынка 9 Рынок 299',
-    'station' =>'Станция : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy поместье',
+    'station' =>'Станция : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud поместье',
     'email' =>'Электронная почта : Dr_ashrafismael@hotmail.com',
     'phone' =>'Телефон : +(20)1222255475',
     'your country' => 'Твоя страна',

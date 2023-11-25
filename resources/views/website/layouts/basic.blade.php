@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/all.min.css">
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/normalize.css">
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/styles.css">
-    <link rel="stylesheet" href="{{ asset('front-assets/css/drop.css') }}">
+    <link rel="stylesheet" href="{{ asset('/front-assets/css/drop.css') }}">
 
      <!-- Google Fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,6 +40,6 @@
 
         <!-- Js Plugins -->
 
-    <script src="{{ asset('front-assets/js/main.js') }}"></script>
+    <script src="{{ asset('/front-assets/js/main.js') }}"></script>
     </body>
 </html>

@@ -11,7 +11,7 @@
         <h2 class="main-title">{{ __('msg.our products') }}</h2>
         <div class="container">
           <div class="box">
-            <img src="{{ asset('front-assets/imgs/Agricultural.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/Agricultural.jpg') }}" alt="" />
             <div class="content">
               <h3>{{ __('msg.agricultural production') }}</h3>
               <p>
@@ -25,7 +25,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('front-assets/imgs/RedGarlic.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/RedGarlic.jpg') }}" alt="" />
             <div class="content">
               <h3>{{ __('msg.red garlic') }}</h3>
               <p>
@@ -39,7 +39,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('front-assets/imgs/RedOnion.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/RedOnion.jpg') }}" alt="" />
             <div class="content">
               <h3>{{ __('msg.red onion') }}</h3>
               <p>
@@ -53,7 +53,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('front-assets/imgs/WhiteGarlic.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/WhiteGarlic.jpg') }}" alt="" />
             <div class="content">
               <h3>{{ __('msg.white garlic') }}</h3>
               <p>
@@ -67,7 +67,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('front-assets/imgs/WhiteOnion.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/WhiteOnion.jpg') }}" alt="" />
             <div class="content">
               <h3>{{ __('msg.white onion') }}</h3>
               <p>
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('front-assets/imgs/GarlicCloves.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/GarlicCloves.jpg') }}" alt="" />
             <div class="content">
               <h3>{{ __('msg.garlic cloves') }}</h3>
               <p>
@@ -95,7 +95,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('front-assets/imgs/Methods.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/Methods.jpg') }}" alt="" />
             <div class="content">
               <h3>{{ __('msg.methods') }}</h3>
               <p>

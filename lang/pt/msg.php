@@ -18,7 +18,7 @@ return
     'languages' =>'Línguas',
     'mazarea el-kaliubia'=>'Mentagat Mazarea El-Kaliubia',
     'office' =>'Escritório : Cairo, Egito-El-Obour Mercado Central Vegetais Partição Seção 9 Mercado 299',
-    'station' =>'Estação : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mansão',
+    'station' =>'Estação : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud Mansão',
     'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
     'phone' =>'Telefone : +(20)1222255475',
     'your name' =>'Seu nome',

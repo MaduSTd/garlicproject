@@ -17,7 +17,7 @@ class ContactController extends Controller
             'country' => $request->country,
             'message' => $request->message,
         ];
-        Mail::to('dr_ashrafismael@egyptiangarlic-onion.shop')->send(new ContactMail($data));
+        Mail::to('dr.ashrafismaelmostafa@gmail.com')->send(new ContactMail($data));
         return back()->with('message_sent','Your Message has been sent successfully!');
     }
 }

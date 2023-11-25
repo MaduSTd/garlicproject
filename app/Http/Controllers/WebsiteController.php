@@ -20,42 +20,42 @@ class WebsiteController extends Controller
     public function show1()
     {
 
-        return view('website.productView1');
+        return view('website.productview1');
     }
 
     public function show2()
     {
 
-        return view('website.productView2');
+        return view('website.productview2');
     }
 
     public function show3()
     {
 
-        return view('website.productView3');
+        return view('website.productview3');
     }
 
     public function show4()
     {
 
-        return view('website.productView4');
+        return view('website.productview4');
 
     }
 
     public function show5()
     {
-        return view('website.productView5');
+        return view('website.productview5');
     }
 
     public function show6()
     {
-        return view('website.productView6');
+        return view('website.productview6');
     }
 
 
     public function show7()
     {
-        return view('website.productView7');
+        return view('website.productview7');
     }
 
 

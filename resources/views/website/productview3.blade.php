@@ -11,15 +11,15 @@
     <section class="auto-slider">
         <div id="slider">
             <figure>
-                <img src="{{asset('front-assets/imgs/redonion2.jpg')}}" alt="" />
+                <img src="{{asset('/front-assets/imgs/redonion2.jpg')}}" alt="" />
 
-                <img src="{{asset('front-assets/imgs/redonion3.jpg')}}" alt="" />
+                <img src="{{asset('/front-assets/imgs/redonion3.jpg')}}" alt="" />
 
-                <img src="{{asset('front-assets/imgs/redonion4.jpg')}}" alt="" />
+                <img src="{{asset('/front-assets/imgs/redonion4.jpg')}}" alt="" />
 
-                <img src="{{asset('front-assets/imgs/redonion5.jpg')}}" alt="" />
+                <img src="{{asset('/front-assets/imgs/redonion5.jpg')}}" alt="" />
 
-                <img src="{{asset('front-assets/imgs/redonion6.jpg')}}" alt="" />
+                <img src="{{asset('/front-assets/imgs/redonion6.jpg')}}" alt="" />
             <div class="indicator"></div>
 </div>
 

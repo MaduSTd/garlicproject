@@ -17,7 +17,7 @@ return
     'languages' =>'Langages',
     'mazarea el-kaliubia'=>'Mazarea El-Kaliubia',
     'office' =>'Bureau : Cairo-Egypt-El-obour Central Market Vegtables Partition Section 9 Market 299',
-    'station' =>'Gare : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Manoir',
+    'station' =>'Gare : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud Manoir',
     'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
     'phone' =>'Téléphone : +(20)1222255475',
     'your name' =>'Votre Nom',
