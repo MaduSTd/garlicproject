@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mazarea El-Kaliubia</title>
+    <title>Mazarea El-Kaliubia-Egyptian Garlic and Onion</title>
     <meta name="description" content="Egyptian Garlic,
     Egyptian Onion,Exporting Egyptian Garlic,Exporting Egyptian Onion,Fresh Green and Dry Egyptian Red and White Garlic">
 
