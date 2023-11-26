@@ -1,23 +1,39 @@
 <?php
 
-namespace App\Http\Controllers;
-use App\Mail\contactMail;
-use Illuminate\Http\Request;
-use Mail;
-class ContactController extends Controller
+namespace App\Mail;
+
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Queue\SerializesModels;
+
+class ContactMail extends Mailable
 {
-    public function contact(){
-        return view('contact-us');
+    use Queueable, SerializesModels;
+public $data=[];
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
+    public function __construct($data)
+    {
+        $this->data=$data;
     }
-    public function sendEmail(Request $request){
-        $data=[
-            'name' => $request->name,
-            'phone' => $request->phone,
-            'email' => $request->email,
-            'country' => $request->country,
-            'message' => $request->message,
-        ];
-        Mail::to('dr.ashrafismaelmostafa@gmail.com')->send(new contactMail($data));
-        return back()->with('message_sent','Your Message has been sent successfully!');
+    public function envelope(): Envelope
+    {
+        return new Envelope(
+            subject: 'New Mail from Contact Us',
+        );
+    }
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
+    {
+        return $this->from('dr_ashrafismael@egyptiangarlic-onion.shop',$this->data['name'])->subject('Contact Message')->view('email.ContactMail');
     }
 }

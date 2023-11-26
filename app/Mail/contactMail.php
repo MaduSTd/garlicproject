@@ -11,7 +11,7 @@ use Illuminate\Queue\SerializesModels;
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
-public $data;
+public $data=[];
     /**
      * Create a new message instance.
      *
@@ -34,6 +34,7 @@ public $data;
      */
     public function build()
     {
-        return $this->subject('Contact Message')->view('email.ContactMail');
+        return $this->from('dr_ashrafismael@egyptiangarlic-onion.shop',$this->data['name'])->subject('Contact Message')->view('email.ContactMail');
     }
 }
+
