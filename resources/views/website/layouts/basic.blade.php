@@ -8,12 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mazarea El-Kaliubia</title>
+    <meta name="description" content="Egyptian Garlic,
+    Egyptian Onion, Exporting Egyptian Garlic,Exporting Egyptian Onion,">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/all.min.css">
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/normalize.css">
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/styles.css">
-    <link rel="stylesheet" href="{{ asset('/front-assets/css/drop.css') }}">
 
      <!-- Google Fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,6 +41,6 @@
 
         <!-- Js Plugins -->
 
-    <script src="{{ asset('/front-assets/js/main.js') }}"></script>
+
     </body>
 </html>
