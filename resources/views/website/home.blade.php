@@ -3,15 +3,14 @@
 
 
 @section('home-content')
-<h3></h3>id="h3homepage" class="text-center">{{ __('msg.hometop') }}
-<title></title>
+<h3 id="h3homepage" class="text-center">{{ __('msg.hometop') }}</h3>
  <!-- Start Products -->
     <div class="products" id="products">
         <br><br><br><br><br>
         <h2 class="main-title">{{ __('msg.our products') }}</h2>
         <div class="container">
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/Agricultural.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/Agricultural.jpg') }}" alt="this is a photo of agricultural production" />
             <div class="content">
               <h3>{{ __('msg.agricultural production') }}</h3>
               <p>
@@ -25,7 +24,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/RedGarlic.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/RedGarlic.jpg') }}" alt="this is a photo of red garlic" />
             <div class="content">
               <h3>{{ __('msg.red garlic') }}</h3>
               <p>
@@ -39,7 +38,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/RedOnion.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/RedOnion.jpg') }}" alt="this is a photo of red onion" />
             <div class="content">
               <h3>{{ __('msg.red onion') }}</h3>
               <p>
@@ -53,7 +52,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/WhiteGarlic.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/WhiteGarlic.jpg') }}" alt="this is a photo of white garlic" />
             <div class="content">
               <h3>{{ __('msg.white garlic') }}</h3>
               <p>
@@ -67,7 +66,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/WhiteOnion.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/WhiteOnion.jpg') }}" alt="this is a photo of white onion" />
             <div class="content">
               <h3>{{ __('msg.white onion') }}</h3>
               <p>
@@ -81,7 +80,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/GarlicCloves.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/GarlicCloves.jpg') }}" alt="this is a photo of garlic cloves" />
             <div class="content">
               <h3>{{ __('msg.garlic cloves') }}</h3>
               <p>
@@ -95,7 +94,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/Methods.jpg') }}" alt="" />
+            <img src="{{ asset('/front-assets/imgs/Methods.jpg') }}" alt="this is a photo of methods" />
             <div class="content">
               <h3>{{ __('msg.methods') }}</h3>
               <p>
