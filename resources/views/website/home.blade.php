@@ -3,10 +3,10 @@
 
 
 @section('home-content')
-<h3 id="h3homepage" class="text-center">{{ __('msg.hometop') }}</h3>
-
+<h3></h3>id="h3homepage" class="text-center">{{ __('msg.hometop') }}
+<title></title>
  <!-- Start Products -->
-    <div class="articles" id="articles">
+    <div class="products" id="products">
         <br><br><br><br><br>
         <h2 class="main-title">{{ __('msg.our products') }}</h2>
         <div class="container">
