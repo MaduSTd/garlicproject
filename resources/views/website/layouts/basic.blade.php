@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mazarea El-Kaliubia</title>
     <meta name="description" content="Egyptian Garlic,
-    Egyptian Onion, Exporting Egyptian Garlic,Exporting Egyptian Onion,">
+    Egyptian Onion,Exporting Egyptian Garlic,Exporting Egyptian Onion,Fresh Green and Dry Egyptian Red and White Garlic">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/all.min.css">
