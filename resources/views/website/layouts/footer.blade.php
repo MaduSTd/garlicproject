@@ -22,12 +22,22 @@
                  <i class="fas fa-map-marker-alt fa-fw"></i>
                 <div class="info">{{ __('msg.station') }}</div>
         </div>
+      </div>
+      <div class="box">
         <div class="line">
             <i class="fa fa-envelope fa-fw"></i>
             <div class="info">
-            {{ __('msg.email') }}
+            {{ __('msg.email1') }}
             </div>
         </div>
+
+        <div class="line">
+            <i class="fa fa-envelope fa-fw"></i>
+            <div class="info">
+            {{ __('msg.email2') }}
+            </div>
+        </div>
+
         <div class="line">
           <i class="fa fa-phone fa-fw"></i>
           <div class="info">

@@ -56,7 +56,7 @@
             placeholder="{{ __('msg.needs') }}"
             name="message"
           ></textarea>
-          <input type="submit" value="Send" />
+          <input type="submit" value="{{ __('msg.send') }}" />
         </form>
       </div>
     </div>

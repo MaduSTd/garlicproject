@@ -18,7 +18,8 @@ return
     'mazarea el-kaliubia'=>'Mentagat Mazarea El-Kaliubia',
     'office' =>'Office : Cairo-Egypt-El-obour Central Market Vegtables Partition Section 9 Market 299',
     'station' =>'Station : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud Manor',
-    'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
+    'email1' =>'E-mail : drashrafismaelmostafa@gmail.com',
+    'email2' =>'E-mail : Dr_ashrafismael@hotmail.com',
     'phone' =>'Phone : +(20)1222255475',
     'your name' =>'Your Name',
     'your phone' => 'Your Phone',
@@ -31,4 +32,6 @@ return
     'aboutp4' => '(Fresh red Onion - Fresh Golden Yellow Onion - Dry Onion Slides - Dry Onion Powder - White Fresh Green garlic - Red Fresh Green Garlic - Dry Red Garlic - Dry White Garlic - Fresh Green Garlic Peels - Dry Garlic Peels - Dry Garlic Powder)',
     'hometop' =>'Egyptian Garlic and Onion',
     'view' => 'View',
+    'send' => 'Send',
+    'sent' => 'Thank you, Your message has been sent successfully',
 ];

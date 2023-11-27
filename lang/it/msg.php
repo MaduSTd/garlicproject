@@ -18,8 +18,9 @@ return
     'mazarea el-kaliubia'=>'Mentagat Mazarea El-Kaliubia',
     'office' =>'Ufficio: Mercato Centrale Cairo-Egitto-El-obour, Divisione Verdure, Sezione 9, Mercato 299',
     'station' =>'Stazione: Maniero El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud',
-    'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
-    'phone' =>'Telefono : +(20)1222255475',
+    'email1' =>'E-mail : drashrafismaelmostafa@gmail.com',
+        'email2' =>'E-mail : Dr_ashrafismael@hotmail.com',
+   'phone' =>'Telefono : +(20)1222255475',
     'your name' =>'Il tuo/tua nome',
     'your phone' => 'Tuo/Tua Telefono',
     'your country' => 'Tuo/Tua Paese',
@@ -31,4 +32,5 @@ return
     'aboutp4' => '(Cipolla rossa fresca - Cipolla fresca gialla dorata - Filetti di cipolla secca - Cipolla secca in polvere - Aglio verde bianco fresco - Aglio verde fresco rosso - Aglio rosso secco - Aglio bianco secco - Bucce di aglio verde fresco - Bucce di aglio secco - Aglio secco in polvere)',
     'hometop' =>'Aglio e cipolla egiziani',
     'view' => 'Visualizzazione',
+    'send' => 'Inviare',
 ];

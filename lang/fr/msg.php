@@ -18,8 +18,9 @@ return
     'mazarea el-kaliubia'=>'Mazarea El-Kaliubia',
     'office' =>'Bureau : Cairo-Egypt-El-obour Central Market Vegtables Partition Section 9 Market 299',
     'station' =>'Gare : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud Manoir',
-    'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
-    'phone' =>'Téléphone : +(20)1222255475',
+    'email1' =>'E-mail : drashrafismaelmostafa@gmail.com',
+    'email2' =>'E-mail : Dr_ashrafismael@hotmail.com',
+   'phone' =>'Téléphone : +(20)1222255475',
     'your name' =>'Votre Nom',
     'your phone' => 'ton numéro de téléphone',
     'your country' => 'Votre Pays',
@@ -31,4 +32,5 @@ return
     'aboutp4' =>"(Oignon rouge frais - Oignon jaune doré frais - Lames d'oignon sec - Poudre d'oignon sec - Ail vert frais blanc - Ail vert frais rouge - Ail rouge sec - Ail blanc sec - Pelures d'ail vert frais - Pelures d'ail sec - Poudre d'ail sec)",
     'hometop' =>'Ail et Oignon égyptiens',
     'view' => 'voir',
+    'send' => 'Envoyer',
 ];

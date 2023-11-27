@@ -8,7 +8,7 @@
         <li><a href="{{route('website.contact')}}">{{ __('msg.contact us') }}</a></li>
         <li>
             <div class="dropdown">
-                <button class="dropbtn">{{ __('msg.languages') }}</button>
+                <button style="margin-top:10px;" class="dropbtn">{{ __('msg.languages') }}</button>
                 <div class="dropdown-content">
                   <a href="{{ url('/en') }}">English</a>
                   <a href="{{ url('/ar') }}">Arabic</a>

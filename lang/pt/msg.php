@@ -19,7 +19,8 @@ return
     'mazarea el-kaliubia'=>'Mentagat Mazarea El-Kaliubia',
     'office' =>'Escritório : Cairo, Egito-El-Obour Mercado Central Vegetais Partição Seção 9 Mercado 299',
     'station' =>'Estação : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud Mansão',
-    'email' =>'E-mail : Dr_ashrafismael@hotmail.com',
+    'email1' =>'E-mail : drashrafismaelmostafa@gmail.com',
+    'email2' =>'E-mail : Dr_ashrafismael@hotmail.com',
     'phone' =>'Telefone : +(20)1222255475',
     'your name' =>'Seu nome',
     'your country' => 'Seu País',
@@ -31,4 +32,5 @@ return
     'aboutp3' =>'A nossa empresa apoia a sociedade civil, formando e empregando jovens e mulheres viúvas nas operações e no fabrico dos nossos produtos, no nosso desejo de garantir, tanto quanto possível, uma vida digna às famílias e aos jovens pobres.',
     'aboutp4' =>'(Cebola vermelha fresca - Cebola amarela dourada fresca - Slides de cebola seca - Cebola seca em pó - Alho verde fresco branco - Alho verde fresco vermelho - Alho vermelho seco - Alho branco seco - Cascas de alho verde fresco - Cascas de alho seco - Pó de alho seco)',
     'view' => 'Visualizar',
+    'send' => 'enviar',
 ];
