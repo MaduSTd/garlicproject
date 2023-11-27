@@ -4,6 +4,11 @@
 
 @section('home-content')
 <h2 class="centerMobileOnly" id="h2homepage">{{ __('msg.hometop') }}</h2>
+    <div class="container" id="containerhometopbox" >
+        <div id="imagehometopbox" class="box">
+            <img id="photohometop" src="{{ asset('/front-assets/imgs/Agricultural.jpg') }}" alt="this is a photo of agricultural production" />
+        </div>
+    </div>
  <!-- Start Products -->
     <div class="products" id="products">
         <h2 class="main-title">{{ __('msg.our products') }}</h2>
