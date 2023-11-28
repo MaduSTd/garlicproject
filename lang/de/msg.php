@@ -18,7 +18,7 @@ return
     'mazarea el-kaliubia'=>'Mazarea El-Kaliubia',
     'office' =>'Büro : Kairo-Ägypten-El-Obour Zentralmarkt Gemüseaufteilung Abschnitt 9 Markt 299',
     'station' =>'Station : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud Herrenhaus',
-    'email1' =>'E-mail : drashrafismaelmostafa@gmail.com',
+    'email1' =>'E-mail :  dr.ashrafismaelmostafa@gmail.com',
     'email2' =>'E-mail : Dr_ashrafismael@hotmail.com',
     'phone' =>'Telefon : +(20)1222255475',
     'your name' =>'Dein Name',

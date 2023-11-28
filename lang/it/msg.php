@@ -18,7 +18,7 @@ return
     'mazarea el-kaliubia'=>'Mentagat Mazarea El-Kaliubia',
     'office' =>'Ufficio: Mercato Centrale Cairo-Egitto-El-obour, Divisione Verdure, Sezione 9, Mercato 299',
     'station' =>'Stazione: Maniero El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud',
-    'email1' =>'E-mail : drashrafismaelmostafa@gmail.com',
+    'email1' =>'E-mail :  dr.ashrafismaelmostafa@gmail.com',
         'email2' =>'E-mail : Dr_ashrafismael@hotmail.com',
    'phone' =>'Telefono : +(20)1222255475',
     'your name' =>'Il tuo/tua nome',

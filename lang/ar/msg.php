@@ -18,7 +18,7 @@ return
     'mazarea el-kaliubia'=>'منتجات مزارع القليوبية',
     'office' =>'المكتب : القاهرة - مصر - العبور السوق المركزي قسم الخضار قسم ٩ محل ٢٩٩',
     'station' =>'المحطة : القناطر الخيرية منشية ابو الغيط عزبة علي افندي محمود',
-    'email1' =>'البريد الإلكتروني : drashrafismaelmostafa@gmail.com',
+    'email1' =>'البريد الإلكتروني :  dr.ashrafismaelmostafa@gmail.com',
     'email2' =>'البريد الإلكتروني : Dr_ashrafismael@hotmail.com',
     'phone' =>'الهاتف : 1222255475 (20)+',
     'your name' =>'اسمك',
