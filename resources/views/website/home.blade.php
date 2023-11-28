@@ -6,7 +6,7 @@
 <h2 class="centerMobileOnly" id="h2homepage">{{ __('msg.hometop') }}</h2>
     <div class="container" id="containerhometopbox" >
         <div id="imagehometopbox" class="box">
-            <img id="photohometop" src="{{ asset('/front-assets/imgs/Agricultural.jpg') }}" alt="this is a photo of agricultural production" />
+            <img id="photohometop" src="{{ asset('/front-assets/imgs/Log.jpg') }}" alt="this is a photo of agricultural production" />
         </div>
     </div>
  <!-- Start Products -->

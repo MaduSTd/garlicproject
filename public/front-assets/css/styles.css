@@ -670,9 +670,9 @@ div#slider figure {
   margin-right: auto;
   max-width: 90%;
   height: 10%;
-  border: 4px solid;
+
   border-radius: 25px;
-  border-color: rgb(25, 152, 25);
+
   padding: 5px;
   position: relative;
   overflow: hidden;
