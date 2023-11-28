@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 :root {
-    --main-color: rgb(40, 174, 40);
-    --main-color-alt: rgb(25, 152, 25);
+    --main-color: rgb(0, 100, 0);
+    --main-color-alt: rgb(0, 100, 0);
     --main-transition: 0.3s;
     --main-padding-top: 100px;
     --main-padding-bottom: 100px;
@@ -14,8 +14,8 @@
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: rgb(40, 174, 40);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 100, 0);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -57,7 +57,7 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: rgb(25, 152, 25);
+    background-color: rgb(14, 163, 14);
 }
 html {
     scroll-behavior: smooth;
