@@ -196,8 +196,8 @@ ul {
 }
 
 #h2homepage {
-    text-align: center;
     font-size: 24px;
+    text-align: center;
 }
 
 .header .main-nav > li > a {
@@ -584,12 +584,12 @@ body {
     box-sizing: content-box;
     display: inline-block;
     padding: 10px 10px 20px;
-    background: rgb(40, 174, 40);
+    background: white;
     max-width: 720px;
     margin: 20px auto;
     overflow: hidden;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div#slider {
@@ -662,4 +662,37 @@ div#slider figure {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+}
+
+#photohometop {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+    height: 10%;
+
+    border-radius: 25px;
+
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+}
+#photohometop::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: rgb(255 255 255 / 20%);
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: 2;
+}
+
+#imagehometopbox {
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%),
+        0px 2px 4px 0px rgb(0 0 0 / 12%);
 }
