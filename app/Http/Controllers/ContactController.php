@@ -18,6 +18,6 @@ class ContactController extends Controller
             'message' => $request->message,
         ];
         Mail::to('dr.ashrafismaelmostafa@gmail.com')->send(new contactMail($data));
-        return back()->with('message_sent','Thank you, Your message has been sent successfully');
+        return back()->with('message_sent','Your Message has been sent successfully!');
     }
 }
