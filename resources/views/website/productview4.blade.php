@@ -11,15 +11,15 @@
     <section class="auto-slider">
         <div id="slider">
             <figure>
-                <img src="{{asset('/front-assets/imgs/whitegarlic2.webp')}}" alt="this is a photo of white garlic" />
+                <img src="{{asset('/front-assets/imgs/whitegarlic3.webp')}}" alt="white garlic" />
 
-                <img src="{{asset('/front-assets/imgs/whitegarlic3.webp')}}" alt="this is a photo of white garlic" />
+                <img src="{{asset('/front-assets/imgs/whitegarlic10.webp')}}" alt="white garlic" />
 
-                <img src="{{asset('/front-assets/imgs/whitegarlic4.webp')}}" alt="this is a photo of white garlic" />
+                <img src="{{asset('/front-assets/imgs/whitegarlic13.webp')}}" alt="white garlic" />
 
-                <img src="{{asset('/front-assets/imgs/whitegarlic5.webp')}}" alt="this is a photo of white garlic" />
+                <img src="{{asset('/front-assets/imgs/whitegarlic17.webp')}}" alt="white garlic" />
 
-                <img src="{{asset('/front-assets/imgs/whitegarlic6.webp')}}" alt="this is a photo of white garlic" />
+                <img src="{{asset('/front-assets/imgs/whitegarlic23.webp')}}" alt="white garlic" />
             <div class="indicator"></div>
 </div>
 

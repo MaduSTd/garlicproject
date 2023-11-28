@@ -11,15 +11,15 @@
     <section class="auto-slider">
         <div id="slider">
             <figure>
-                <img src="{{asset('/front-assets/imgs/whiteonion5.webp')}}" alt="this is a photo of whit onion" />
+                <img src="{{asset('/front-assets/imgs/whiteonion5.webp')}}" alt="white onion" />
 
-                <img src="{{asset('/front-assets/imgs/whiteonion6.webp')}}" alt="this is a photo of whit onion" />
+                <img src="{{asset('/front-assets/imgs/whiteonion6.webp')}}" alt="white onion" />
 
-                <img src="{{asset('/front-assets/imgs/whiteonion7.webp')}}" alt="this is a photo of whit onion" />
+                <img src="{{asset('/front-assets/imgs/whiteonion7.webp')}}" alt="white onion" />
 
-                <img src="{{asset('/front-assets/imgs/whiteonion8.webp')}}" alt="this is a photo of whit onion" />
+                <img src="{{asset('/front-assets/imgs/whiteonion8.webp')}}" alt="white onion" />
 
-                <img src="{{asset('/front-assets/imgs/WhiteOnion.webp')}}" alt="this is a photo of whit onion" />
+                <img src="{{asset('/front-assets/imgs/whiteonion9.webp')}}" alt="white onion" />
             <div class="indicator"></div>
 </div>
 

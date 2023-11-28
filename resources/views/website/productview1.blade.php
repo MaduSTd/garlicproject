@@ -11,15 +11,15 @@
     <section class="auto-slider">
         <div id="slider">
             <figure>
-                <img src="{{asset('/front-assets/imgs/agricultural2.webp')}}" alt="this is a photo of agricultural production" />
+                <img src="{{asset('/front-assets/imgs/agricultural2.webp')}}" alt="agricultural production" />
 
-                <img src="{{asset('/front-assets/imgs/agricultural3.webp')}}" alt="this is a photo of agricultural production" />
+                <img src="{{asset('/front-assets/imgs/agricultural15.webp')}}" alt="agricultural production" />
 
-                <img src="{{asset('/front-assets/imgs/agricultural7.webp')}}" alt="this is a photo of agricultural production" />
+                <img src="{{asset('/front-assets/imgs/agricultural17.webp')}}" alt="agricultural production" />
 
-                <img src="{{asset('/front-assets/imgs/agricultural4.webp')}}" alt="this is a photo of agricultural production" />
+                <img src="{{asset('/front-assets/imgs/agricultural22.webp')}}" alt="agricultural production" />
 
-                <img src="{{asset('/front-assets/imgs/agricultural9.webp')}}" alt="this is a photo of agricultural production" />
+                <img src="{{asset('/front-assets/imgs/agricultural27.webp')}}" alt="agricultural production" />
             <div class="indicator"></div>
 </div>
 
