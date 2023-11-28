@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/all.min.css">
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/normalize.css">
     <link rel="stylesheet" href="/front-assets/css{{$lang}}/styles.css">
+    <link rel="icon" type="image/png" href="{{ asset('front-assets/imgs/logo33.webp') }}">
 
      <!-- Google Fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com" />
