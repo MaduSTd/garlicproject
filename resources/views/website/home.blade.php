@@ -3,7 +3,7 @@
 
 
 @section('home-content')
-<h2 class="centerMobileOnly" id="h2homepage">{{ __('msg.hometop') }}</h2>
+<h1 class="centerMobileOnly" id="h2homepage">{{ __('msg.hometop') }}</h1>
     <div class="container" id="containerhometopbox" >
         <div id="imagehometopbox" class="box">
             <img id="photohometop" src="{{ asset('/front-assets/imgs/Log.webp') }}" alt="  agricultural production" />
