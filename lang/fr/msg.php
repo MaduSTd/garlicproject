@@ -15,7 +15,7 @@ return
     'about us'   =>'À Propos De Nous',
     'contact us'   =>'Contactez-Nous',
     'languages' =>'Langages',
-    'mazarea el-kaliubia'=>'Mazarea El-Kaliubia',
+    'mazarea el-kaliubia'=>'Mentagat Mazarea El-Kaliubia',
     'office' =>'Bureau : Cairo-Egypt-El-obour Central Market Vegtables Partition Section 9 Market 299',
     'station' =>'Gare : El-Kanater El-Khaireya Mansheyt abo el Gheit Ali Afandy Mahmoud Manoir',
     'email1' =>'E-mail :  dr.ashrafismaelmostafa@gmail.com',
