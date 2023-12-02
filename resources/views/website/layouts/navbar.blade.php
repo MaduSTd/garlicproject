@@ -11,13 +11,13 @@
             <div class="dropdown">
                 <button class="dropbtn">{{ __('msg.languages') }}</button>
                 <div class="dropdown-content">
-                  <a href="{{ url('/en') }}">English</a>
-                  <a href="{{ url('/ar') }}">Arabic</a>
-                  <a href="{{ url('/it') }}">Italiano</a>
-                  <a href="{{ url('/de') }}">German</a>
-                  <a href="{{ url('/fr') }}">French</a>
-                  <a href="{{ url('/pt') }}">Portugeese</a>
-                  <a href="{{ url('/ru') }}">Russian</a>
+                  <a href="{{ url('/en') }}" hreflang="en">English</a>
+                  <a href="{{ url('/ar') }}" hreflang="ar">Arabic</a>
+                  <a href="{{ url('/it') }}" hreflang="it">Italiano</a>
+                  <a href="{{ url('/de') }}" hreflang="de">German</a>
+                  <a href="{{ url('/fr') }}" hreflang="fr">French</a>
+                  <a href="{{ url('/pt') }}" hreflang="pt">Portugeese</a>
+                  <a href="{{ url('/ru') }}" hreflang="ru">Russian</a>
                 </div>
               </div>
         </li>

@@ -1,8 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
     $lang = app()->getlocale() =="ar" ? '-rtl' : '';
 ?>
+
+<?php
+    $htmlang = '';
+    $locale = app()->getLocale();
+
+    if ($locale == 'en') {
+        $htmlang = 'en';
+    } elseif ($locale == 'ar') {
+        $htmlang = 'ar';
+    } elseif ($locale == 'it') {
+        $htmlang = 'it';
+    } elseif ($locale == 'de') {
+        $htmlang = 'de';
+    } elseif ($locale == 'fr') {
+        $htmlang = 'fr';
+    } elseif ($locale == 'pt') {
+        $htmlang = 'pt';
+    } elseif ($locale == 'ru') {
+        $htmlang = 'ru';
+    }
+?>
+<!DOCTYPE html>
+<html lang="{{$htmlang}}">
+
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

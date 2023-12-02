@@ -19,7 +19,7 @@
 
                 <img src="{{asset('/front-assets/imgs/whitegarlic17.webp')}}" alt="white garlic" />
 
-                <img src="{{asset('/front-assets/imgs/whitegarlic23.webp')}}" alt="white garlic" />
+                <img src="{{asset('/front-assets/imgs/whitegarlic9.webp')}}" alt="white garlic" />
             <div class="indicator"></div>
 </div>
 
