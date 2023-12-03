@@ -15,11 +15,11 @@
 
                 <img src="{{asset('/front-assets/imgs/method3.webp')}}" alt="methods of packing and cargo" />
 
-                <img src="{{asset('/front-assets/imgs/method4.webp')}}" alt="methods of packing and cargo" />
+                <img src="{{asset('/front-assets/imgs/method17.webp')}}" alt="methods of packing and cargo" />
 
-                <img src="{{asset('/front-assets/imgs/method11.webp')}}" alt="methods of packing and cargo" />
+                <img src="{{asset('/front-assets/imgs/method18.webp')}}" alt="methods of packing and cargo" />
 
-                <img src="{{asset('/front-assets/imgs/method13.webp')}}" alt="methods of packing and cargo" />
+                <img src="{{asset('/front-assets/imgs/method19.webp')}}" alt="methods of packing and cargo" />
             <div class="indicator"></div>
 </div>
 

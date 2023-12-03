@@ -15,11 +15,11 @@
 
                 <img src="{{asset('/front-assets/imgs/agricultural15.webp')}}" alt="agricultural production" />
 
-                <img src="{{asset('/front-assets/imgs/agricultural17.webp')}}" alt="agricultural production" />
+                <img src="{{asset('/front-assets/imgs/agricultural11.webp')}}" alt="agricultural production" />
 
                 <img src="{{asset('/front-assets/imgs/agricultural22.webp')}}" alt="agricultural production" />
 
-                <img src="{{asset('/front-assets/imgs/agricultural27.webp')}}" alt="agricultural production" />
+                <img src="{{asset('/front-assets/imgs/agricultural9.webp')}}" alt="agricultural production" />
             <div class="indicator"></div>
 </div>
 

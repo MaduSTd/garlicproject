@@ -15,7 +15,7 @@
 
                 <img src="{{asset('/front-assets/imgs/garlicloves4.webp')}}" alt="garlic cloves" />
 
-                <img src="{{asset('/front-assets/imgs/garlicloves5.webp')}}" alt="garlic cloves" />
+                <img src="{{asset('/front-assets/imgs/garlicloves13.webp')}}" alt="garlic cloves" />
 
                 <img src="{{asset('/front-assets/imgs/garlicloves8.webp')}}" alt="garlic cloves" />
 

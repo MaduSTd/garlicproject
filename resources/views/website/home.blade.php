@@ -6,7 +6,7 @@
 <h1 class="centerMobileOnly" id="h2homepage">{{ __('msg.hometop') }}</h1>
     <div class="container" id="containerhometopbox" >
         <div id="imagehometopbox" class="box">
-            <img id="photohometop" src="{{ asset('/front-assets/imgs/homeph.webp') }}" alt="  agricultural production" />
+            <img id="photohometop" src="{{ asset('/front-assets/imgs/homephn.webp') }}" alt="  agricultural production" />
         </div>
     </div>
  <!-- Start Products -->
@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/RedGarlic.webp') }}" alt="  red garlic" />
+            <img src="{{ asset('/front-assets/imgs/redgarlic32n.webp') }}" alt="  red garlic" />
             <div class="content">
               <h3>{{ __('msg.red garlic') }}</h3>
               <p>
@@ -42,7 +42,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/RedOnion.webp') }}" alt="  red onion" />
+            <img src="{{ asset('/front-assets/imgs/redonion27n.webp') }}" alt="  red onion" />
             <div class="content">
               <h3>{{ __('msg.red onion') }}</h3>
               <p>
@@ -70,7 +70,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/whiteonion1.webp') }}" alt="  white onion" />
+            <img src="{{ asset('/front-assets/imgs/whiteonion5n.webp') }}" alt="  white onion" />
             <div class="content">
               <h3>{{ __('msg.white onion') }}</h3>
               <p>
@@ -84,7 +84,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="{{ asset('/front-assets/imgs/GarlicCloves.webp') }}" alt="  garlic cloves" />
+            <img src="{{ asset('/front-assets/imgs/garlicloves12n.webp') }}" alt="  garlic cloves" />
             <div class="content">
               <h3>{{ __('msg.garlic cloves') }}</h3>
               <p>
